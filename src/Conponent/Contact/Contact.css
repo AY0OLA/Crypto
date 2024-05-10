@@ -1,0 +1,76 @@
+:root {
+  --green: #01c300;
+  --black: #000000;
+  --white: color-mix(in srgb, #fff, transparent 15%);
+  --pureWhite: #fff;
+  --dark: color-mix(in srgb, #353535, transparent 15%);
+}
+.contact {
+  padding-top: 90px;
+  text-align: center;
+  h1 {
+    text-transform: uppercase;
+    color: var(--white);
+    font-family: "Source Sans Pro";
+    font-size: clamp(3rem, 3vw, 2rem);
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 10.56px;
+    text-align: center;
+  }
+  span {
+    text-align: center;
+    color: #fff;
+    font-family: Poppins;
+    font-size: clamp(1rem, 2vw, 0.8rem);
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 3.3px;
+  }
+}
+form {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-align: left;
+
+    span {
+      color: var(--pureWhite);
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: 3.3px;
+    }
+    input {
+      width: 296px;
+      padding: 10px;
+      color: var(--black);
+      background-color: var(--pureWhite);
+      border-radius: 30px;
+      border: none;
+      outline: none;
+      font-weight: 800;
+      font-size: 1.2rem;
+    }
+  }
+  button {
+    text-align: center;
+    width: 316px;
+    padding: 20px;
+    border-radius: 100px;
+    background-color: var(--green);
+    color: var(--pureWhite);
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 3rem;
+  }
+}

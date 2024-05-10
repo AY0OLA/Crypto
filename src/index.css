@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+:root {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--white);
+  background-color: var(--black);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --green: #01c300;
+  --black: #000000;
+  --white: color-mix(in srgb, #fff, transparent 15%);
+  --pureWhite: #fff;
+  --dark: color-mix(in srgb, #353535, transparent 15%);
+}
+.colo {
+  color: var(--green);
+  margin-top: 2rem;
+  span {
+    font-family: Poppins;
+    font-size: clamp(2rem, 2vw, 1.4rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 5.775px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.active {
+  top: -50rem;
+}
+.invert {
+  flex-direction: row-reverse;
+}
+@media (min-width: 750px) {
+  .Ourwork {
+    .work {
+      .img {
+        width: 515px;
+      }
+    }
+  }
+  .Team {
+    .teamMember {
+      .member {
+        .img {
+          width: 615px;
+          height: 615px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 885px) {
+  .Ourwork {
+    padding: 120px 10px;
+    gap: 5;
+    .work {
+      gap: 1rem;
+    }
+  }
+  .Team {
+    .teamMember {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      .member {
+        .img {
+          filter: blur(5px);
+
+          &:hover {
+            filter: blur(0);
+          }
+        }
+      }
+    }
+  }
+}

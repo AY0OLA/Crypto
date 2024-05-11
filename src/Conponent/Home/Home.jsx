@@ -31,11 +31,11 @@ const Home = () => {
         <div className="customer">
           <span className="promote">Promoted by BDTC</span>
           <div className="projec">
-            <img src="./src/image/kizu.jpeg" alt="" />
-            <img src="./src/image/chinu.jpeg" alt="" />
-            <img src="./src/image/Troll.jpeg" alt="" />
-            <img src="./src/image/Creso.jpeg" alt="" />
-            <img src="./src/image/proj.jpeg" alt="" />
+            <img src="image/kizu.jpeg" alt="" />
+            <img src="image/chinu.jpeg" alt="" />
+            <img src="image/Troll.jpeg" alt="" />
+            <img src="image/Creso.jpeg" alt="" />
+            <img src="image/proj.jpeg" alt="" />
           </div>
         </div>
 
@@ -50,7 +50,7 @@ const Home = () => {
                 <button>Book On Telegram</button>
               </div>
             </div>
-            <img src="./src/image/raid.jpeg" alt="" />
+            <img src="src/image/raid.jpeg" alt="" />
           </div>
           <div className="product invert">
             <div className="text">
@@ -63,7 +63,7 @@ const Home = () => {
                 techniques to attract developers and make your project trending.
               </span>
             </div>
-            <img src="./src/image/bdtc.jpeg" alt="" />
+            <img src="image/bdtc.jpeg" alt="" />
           </div>
           <div className="product">
             <div className="text">
@@ -87,12 +87,12 @@ const Home = () => {
                 <button>Hype now</button>
               </div>
             </div>
-            <img src="./src/image/bdtc2.jpeg" alt="" />
+            <img src="image/bdtc2.jpeg" alt="" />
           </div>
         </div>
 
         <div className="shill">
-          <img src="./src/image/mode.jpeg" alt="" />
+          <img src="image/mode.jpeg" alt="" />
           <div className="words">
             <span className="needs">Need Pro Shillers ?</span>
             <span className="step">Optimize your project in 3 steps</span>
@@ -187,23 +187,23 @@ const Home = () => {
           <h3>CONNECT WITH TEAM</h3>
           <div className="team11">
             <a href="https://t.me/CEO100m">
-              <img src="./src/image/2b.jpeg" alt="" />
+              <img src="image/2b.jpeg" alt="" />
             </a>
 
             <a href="https://t.me/Crypto_boy122">
-              <img src="./src/image/2a.jpeg" alt="" />
+              <img src="image/2a.jpeg" alt="" />
             </a>
             <a href="https://t.me/Wen_100x">
-              <img src="./src/image/2d.jpeg" alt="" />
+              <img src="image/2d.jpeg" alt="" />
             </a>
             <a href="https://t.me/Nizzan_GTR">
-              <img src="./src/image/2e.jpeg" alt="" />
+              <img src="image/2e.jpeg" alt="" />
             </a>
             <a href="https://t.me/KM_Crypton">
-              <img src="./src/image/2f.jpeg" alt="" />
+              <img src="image/2f.jpeg" alt="" />
             </a>
             <a href="https://t.me/Osmosiofficial">
-              <img src="./src/image/2c.jpeg" alt="" />
+              <img src="image/2c.jpeg" alt="" />
             </a>
           </div>
         </div>

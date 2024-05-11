@@ -7,7 +7,7 @@ const Project = () => {
     <>
       <div class="Ourwork">
         <div class="work">
-          <img src="./src/image/1.jpeg" alt="" class="img" />
+          <img src="image/1.jpeg" alt="" class="img" />
           <div class="workContent">
             <div class="workHeader">our work</div>
             Our crypto marketing agency is dedicated to creating visibility and
@@ -20,7 +20,7 @@ const Project = () => {
           </div>
         </div>
         <div class="work invert">
-          <img src="./src/image/2.jpeg" alt="" class="img" />
+          <img src="image/2.jpeg" alt="" class="img" />
           <div class="Contect">
             <div class="workHeader">Proffessional AI raiding</div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ex
@@ -33,7 +33,7 @@ const Project = () => {
           </div>
         </div>
         <div class="work">
-          <img src="./src/image/3.jpeg" alt="" class="img" />
+          <img src="image/3.jpeg" alt="" class="img" />
           <div class="Contect">
             <div class="workHeader">FX Signal Room</div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ex
@@ -46,7 +46,7 @@ const Project = () => {
           </div>
         </div>
         <div class="work invert">
-          <img src="./src/image/4.jpeg" alt="" class="img" />
+          <img src="image/4.jpeg" alt="" class="img" />
           <div class="Contect">
             <div class="workHeader">Public Awareness</div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ex
@@ -59,7 +59,7 @@ const Project = () => {
           </div>
         </div>
         <div class="work">
-          <img src="./src/image/5.jpeg" alt="" class="img" />
+          <img src="image/5.jpeg" alt="" class="img" />
           <div class="Contect">
             <div class="workHeader">Technical Analysis Class</div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ex

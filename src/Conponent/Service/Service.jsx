@@ -41,12 +41,12 @@ const Service = () => {
               changing the game throught crypto marketing{" "}
             </span>
             <div className="proWork">
-              <img src="./src/image/kizu.jpeg" alt="" />
-              <img src="./src/image/proj.jpeg" alt="" />
-              <img src="./src/image/Troll.jpeg" alt="" />
-              <img src="./src/image/Creso.jpeg" alt="" />
-              <img src="./src/image/bi.jpeg" alt="" />
-              <img src="./src/image/chinu.jpeg" alt="" />
+              <img src="image/kizu.jpeg" alt="" />
+              <img src="image/proj.jpeg" alt="" />
+              <img src="image/Troll.jpeg" alt="" />
+              <img src="image/Creso.jpeg" alt="" />
+              <img src="image/bi.jpeg" alt="" />
+              <img src="image/chinu.jpeg" alt="" />
             </div>
           </div>
         </div>
@@ -64,12 +64,7 @@ const Service = () => {
         </div>
       </div>
       <div className="video">
-        <video
-          src="./src/image/Video.mp4"
-          muted
-          autoPlay
-          className="play"
-        ></video>
+        <video src="image/Video.mp4" muted autoPlay className="play"></video>
       </div>
 
       <Footer />

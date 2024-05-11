@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="header">
       <div className="logoSpace">
-        <img src="./src/image/logo.png" alt="" />
+        <img src="image/logo.png" alt="" />
         <div className="logoName">
           <div>
             <span className="short">b</span>

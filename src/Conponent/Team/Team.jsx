@@ -7,17 +7,17 @@ const Team = () => {
   return (
     <>
       <div class="Team">
-        <img src="./src/image/1a.png" alt="" class="img" />
+        <img src="image/1a.png" alt="" class="img" />
 
         <div class="connet">
-          <img src="./src/image/1b.jpeg" alt="" class="image2" />
+          <img src="image/1b.jpeg" alt="" class="image2" />
           <Link to={"/contact"} class="book">
             Connect
           </Link>
         </div>
         <div class="teamMember">
           <div class="member">
-            <img src="./src/image/2b.jpeg" alt="" class="img" />
+            <img src="image/2b.jpeg" alt="" class="img" />
             <div class="text">
               <div class="pos">CEO</div>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
@@ -25,7 +25,7 @@ const Team = () => {
             </div>
           </div>
           <div class="member">
-            <img src="./src/image/2a.jpeg" alt="" class="img" />
+            <img src="image/2a.jpeg" alt="" class="img" />
             <div class="text">
               <div class="pos">CFO</div>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
@@ -33,7 +33,7 @@ const Team = () => {
             </div>
           </div>
           <div class="member">
-            <img src="./src/image/2d.jpeg" alt="" class="img" />
+            <img src="image/2d.jpeg" alt="" class="img" />
             <div class="text">
               <div class="pos">ED</div>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
@@ -41,7 +41,7 @@ const Team = () => {
             </div>
           </div>
           <div class="member">
-            <img src="./src/image/2c.jpeg" alt="" class="img" />
+            <img src="image/2c.jpeg" alt="" class="img" />
             <div class="text">
               <div class="pos">MD</div>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
@@ -49,7 +49,7 @@ const Team = () => {
             </div>
           </div>
           <div class="member">
-            <img src="./src/image/2f.jpeg" alt="" class="img" />
+            <img src="image/2f.jpeg" alt="" class="img" />
             <div class="text">
               <div class="pos">SPM</div>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
@@ -57,7 +57,7 @@ const Team = () => {
             </div>
           </div>
           <div class="member">
-            <img src="./src/image/2e.jpeg" alt="" class="img" />
+            <img src="image/2e.jpeg" alt="" class="img" />
             <div class="text">
               <div class="pos">SPM</div>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla

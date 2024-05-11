@@ -19,7 +19,7 @@
     padding: 0 2rem;
 
     margin-top: 2rem;
-    background: url(./src/image/home.jpeg), no-repeat;
+    background: url(image/home.jpeg), no-repeat;
     background-size: cover;
     background-position: center;
     padding: 5rem 0;
@@ -484,7 +484,7 @@
     padding: 0 2rem;
 
     margin-top: 2rem;
-    background: url(./src/image/home.jpeg), no-repeat;
+    background: url(image/home.jpeg), no-repeat;
     background-size: cover;
     background-position: center;
     padding: 5rem 0;

@@ -10,7 +10,7 @@ const Team = () => {
         <img src="./src/image/1a.png" alt="" class="img" />
 
         <div class="connet">
-          <img src="./src/image/1b.jpeg" alt="" class="image" />
+          <img src="./src/image/1b.jpeg" alt="" class="image2" />
           <Link to={"/contact"} class="book">
             Connect
           </Link>

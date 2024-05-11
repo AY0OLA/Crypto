@@ -61,7 +61,7 @@
     display: none;
   }
 
-  .navBar {
+  .navBars {
     display: flex;
     align-items: center;
     text-align: center;
@@ -115,7 +115,7 @@
       cursor: pointer;
     }
 
-    .navBar {
+    .navBars {
       position: absolute;
       background-color: var(--green);
       width: 100%;
@@ -123,8 +123,8 @@
       align-items: center;
       padding: 30px;
       height: 100vh;
-      top: -100rem;
-      left: 0;
+      top: 0;
+      left: 30rem;
       display: flex;
       flex-direction: column;
       gap: 30px;
@@ -164,7 +164,4 @@
       }
     }
   }
-}
-.active {
-  top: 0;
 }

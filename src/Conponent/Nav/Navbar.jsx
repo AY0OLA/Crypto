@@ -1,18 +1,10 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import { CgMenuGridO } from "react-icons/cg";
 import { FaRegTimesCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  // useEffect(() => {
-  //   const Shownav = () => {
-  //     const navBar = document.querySelector(".navBar");
-  //     navBar.classList.add("active");
-  //     console.log("ready");
-  //   };
-  // });
-
   return (
     <div className="header">
       <div className="logoSpace">
@@ -37,11 +29,11 @@ const Navbar = () => {
         </div>
       </div>
       <CgMenuGridO className="menu" />
-      <div className="navBar">
+      <div className="navBars">
         <FaRegTimesCircle className="times" />
         <div className="navItems">
           <ul>
-            <Link to={"/home"} className="li">
+            <Link to={"/"} className="li">
               Home
             </Link>
             <Link className="li" to={"/service"}>

@@ -39,9 +39,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.active {
-  top: -50rem;
-}
+
 .invert {
   flex-direction: row-reverse;
 }
@@ -87,4 +85,10 @@
       }
     }
   }
+}
+.active {
+  left: 0;
+}
+.unstrollbody {
+  overflow: hidden;
 }

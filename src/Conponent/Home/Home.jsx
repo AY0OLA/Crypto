@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
@@ -181,7 +182,33 @@ const Home = () => {
             Ut condimentum lorem{" "}
           </div>
         </div>
+
+        <div className="connetTEam">
+          <h3>CONNECT WITH TEAM</h3>
+          <div className="team11">
+            <a href="https://t.me/CEO100m">
+              <img src="./src/image/2b.jpeg" alt="" />
+            </a>
+
+            <a href="https://t.me/Crypto_boy122">
+              <img src="./src/image/2a.jpeg" alt="" />
+            </a>
+            <a href="https://t.me/Wen_100x">
+              <img src="./src/image/2d.jpeg" alt="" />
+            </a>
+            <a href="https://t.me/Nizzan_GTR">
+              <img src="./src/image/2e.jpeg" alt="" />
+            </a>
+            <a href="https://t.me/KM_Crypton">
+              <img src="./src/image/2f.jpeg" alt="" />
+            </a>
+            <a href="https://t.me/Osmosiofficial">
+              <img src="./src/image/2c.jpeg" alt="" />
+            </a>
+          </div>
+        </div>
       </div>
+      <Footer />
     </>
   );
 };

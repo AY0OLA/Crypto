@@ -1,10 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { CgMenuGridO } from "react-icons/cg";
 import { FaRegTimesCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [open, setOpen] = useState("navBars");
+
+  const Shownav = () => {
+    console.log("ready");
+    setOpen("navBars active");
+  };
+
   return (
     <div className="header">
       <div className="logoSpace">
@@ -31,8 +38,8 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <CgMenuGridO className="menu" />
-      <div className="navBars">
+      <CgMenuGridO className="menu" onClick={Shownav} />
+      <div className={open}>
         <FaRegTimesCircle className="times" />
         <div className="navItems">
           <ul>

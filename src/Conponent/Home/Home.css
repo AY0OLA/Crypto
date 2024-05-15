@@ -454,9 +454,9 @@
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
 
     h3 {
       color: #fff;

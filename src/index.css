@@ -92,7 +92,7 @@
   }
 }
 .active {
-  left: 0;
+  top: 0;
 }
 .unstrollbody {
   overflow: hidden;

@@ -1,3 +1,4 @@
+
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react"; 
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid"; 
@@ -39,6 +40,7 @@ const Navbar = () => {
           <Link to="/join">
             <div></div>
           </Link>
+
         </div>
       </div>
     </nav>

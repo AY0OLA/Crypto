@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"); */
 :root {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Source Sans Pro";
+
   line-height: 1.5;
   font-weight: 400;
 
@@ -24,30 +24,13 @@
   --pureWhite: #fff;
   --dark: color-mix(in srgb, #353535, transparent 15%);
 }
-.colo {
-  color: var(--green);
-  margin-top: 2rem;
-  span {
-    font-family: Poppins;
-    font-size: clamp(2rem, 2vw, 1.4rem);
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 5.775px;
-    display: flex;
-    gap: 24px;
-    flex-direction: column;
-  }
-}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.invert {
-  flex-direction: row-reverse;
-}
 @media (min-width: 750px) {
   .Ourwork {
     .work {
@@ -96,4 +79,25 @@
 }
 .unstrollbody {
   overflow: hidden;
+}
+.image {
+  background: url(https://s3-alpha-sig.figma.com/img/e738/c074/fa8e0f032cb28075f9b2a98a9bd9576c?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i11otRj~JMAgFCcyykuiTgH~GYReKT6-~i6d6AytDExQJDeyLh5Ne-3UI2w1DtQy3fKlnfE1Eah4fBCajCdz9julBPsRSmVyax3Bal1bpvjrXPTRQfCRHxItLsRGBNJdfCaJ7jgK4HGc-FaGjiRoaneBJe8SGX4m0mUHPQI5h-HnMqB0aPioYwXVsXn7OxZ1f5g6DTzQR4V2Fu2HEAxBvpQMghFR3Ys74qdYxyZJkUeH~-EVw-eKfqbTVFncoBhUisHbnx66XXBcNcRzjriEIyGlPS-xJjgApInVl~YlyJ53ckAKOTvUTr~YGdCmrYnsxtLxmrbcaa8X8Yp~oNTr1w__),
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-color: color-mix(in srgb, #000, transparent 20%);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
 }

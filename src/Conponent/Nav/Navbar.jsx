@@ -67,11 +67,11 @@ const Navbar = () => {
           </Link>
           <Link
             className={
-              pathName === "/team"
+              pathName === "/contact"
                 ? ""
                 : "text-secondary-400 text-[1.6rem] text-[#cbd5e1]"
             }
-            to="/team"
+            to="/contact"
           >
             Contact
           </Link>

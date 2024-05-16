@@ -19,7 +19,7 @@ const Team = () => {
             class="w-[122px] h-[122px] rounded-full hover:border-[#778899] hover:border-4"
           />
           <Link
-            to={"/contact"}
+            to={"/team"}
             class="bg-[#01c300] text-center p-[10px] tracking-[2px] rounded-[20px] text-[#fff] "
           >
             Connect

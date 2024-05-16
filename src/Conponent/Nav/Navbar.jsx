@@ -13,7 +13,7 @@ const Navbar = () => {
         <Link to="/" className="flex text-center items-center">
           <img
             src="https://s3-alpha-sig.figma.com/img/f73e/c525/34ddeb66be0b89dcad920fba0d323c96?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pFVxF6TO7LQaw1iv68Yyot9DzEarlji2XUVCGbCOD4lJU~yfcylcuDSGYOp2up35qEM65ir3wQ3hrzZfvVq5riWOJuS~ptlxFq-iL2QFfuE2S9mXVt6OWlklDGj2kdJgt~-BZ316uq03OcuGo4gFqNMGERKxm~H2LU37hSww1AaM~~mUcAbJGJb3kvryI2LWApSm3jNhPCmiZqNHE9rvnFuvAc~CuQrkfZv0p0AQTLia-Xbqwp2QxYmXh5qSFeJI4MfcwcP0tiJO6TStvQ6B3DlPKjfS8JgI9lQEUQlXsW7u8dJCAOKFtBaUcyZCbTO26ldgQzZY-e674qBcVISKBw__"
-            className="w-[240px] h-[130px] absolute left-[-1rem]"
+            className="w-[240px] max-lg:w-[190px] max-lg:h-[100px] max-lg:left[-2rem] h-[130px] absolute left-[-1rem]"
           />
           <div className="flex items-center text-center gap-[10px] ml-[3rem] max-lg:hidden">
             <div className="flex flex-col leading-6 text-center items-center">

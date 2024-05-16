@@ -31,55 +31,6 @@
   box-sizing: border-box;
 }
 
-@media (min-width: 750px) {
-  .Ourwork {
-    .work {
-      .img {
-        width: 515px;
-      }
-    }
-  }
-  .Team {
-    .teamMember {
-      .member {
-        .img {
-          width: 615px;
-          height: 615px;
-        }
-      }
-    }
-  }
-}
-@media (max-width: 885px) {
-  .Ourwork {
-    padding: 120px 10px;
-    gap: 5;
-    .work {
-      gap: 1rem;
-    }
-  }
-  .Team {
-    .teamMember {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      .member {
-        .img {
-          filter: blur(5px);
-
-          &:hover {
-            filter: blur(0);
-          }
-        }
-      }
-    }
-  }
-}
-.active {
-  top: 0;
-}
-.unstrollbody {
-  overflow: hidden;
-}
 .image {
   background: url(https://s3-alpha-sig.figma.com/img/e738/c074/fa8e0f032cb28075f9b2a98a9bd9576c?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i11otRj~JMAgFCcyykuiTgH~GYReKT6-~i6d6AytDExQJDeyLh5Ne-3UI2w1DtQy3fKlnfE1Eah4fBCajCdz9julBPsRSmVyax3Bal1bpvjrXPTRQfCRHxItLsRGBNJdfCaJ7jgK4HGc-FaGjiRoaneBJe8SGX4m0mUHPQI5h-HnMqB0aPioYwXVsXn7OxZ1f5g6DTzQR4V2Fu2HEAxBvpQMghFR3Ys74qdYxyZJkUeH~-EVw-eKfqbTVFncoBhUisHbnx66XXBcNcRzjriEIyGlPS-xJjgApInVl~YlyJ53ckAKOTvUTr~YGdCmrYnsxtLxmrbcaa8X8Yp~oNTr1w__),
     no-repeat;

@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className="p-[70px] bg-[#353535db] flex flex-wrap gap-[30px] justify-between mt-[3rem]">
+      <div className="p-[70px] bg-[#353535db] flex flex-wrap gap-[30px] justify-between">
         <div className="">
           <div className="text-[1.3rem] uppercase tracking-[5px] font-extrabold">
             bdtc
           </div>
-          <span className="text-[1rem] font-bold gap-[2px] flex-nowrap items-center text-center flex">
+          <span className="text-[1rem] font-bold gap-[2px] flex-wrap items-center md:text-center flex">
             2021 <AiOutlineCopyrightCircle /> BDTC All right reserved
           </span>
         </div>

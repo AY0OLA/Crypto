@@ -1,38 +1,53 @@
 import React from "react";
-import "./Service.css";
 import Footer from "../Footer/Footer";
 
 const Service = () => {
   return (
-    <div className="serv">
-      <div className="service">
-        <div className="serviceItem">
-          <div className="projectmc">
-            <span className="head">PROJECT MC</span>
+    <div className="pt-[150px]">
+      <div className="px-[2rem] grid max-md:grid-cols-1 grid-cols-2 gap-[10px] justify-center max-md:items-center">
+        <div className="">
+          <div className="flex flex-col gap-[10px]">
+            <span className="font-extrabold max-md:text-[1rem] text-[2rem] tracking-[3px]">
+              PROJECT MC
+            </span>
 
-            <div className="box">
-              <div className="contest">$CRESO - $124M MC</div>
-              <div className="contest">$TROLL - $128M MC</div>
-              <div className="contest">$DGI - $81M MC</div>
-              <div className="contest">$KIZUNA- $58M MC</div>
+            <div className="flex flex-col gap-[10px]">
+              <div className="bg-[#353535db] p-[5px] tracking-[4px] font-bold rounded-full md:w-[300px] max-md:text-[0.8rem] text-center">
+                $CRESO - $124M MC
+              </div>
+              <div className="bg-[#353535db] p-[5px] tracking-[4px] font-bold rounded-full md:w-[300px] text-center max-md:text-[0.8rem]">
+                $TROLL - $128M MC
+              </div>
+              <div className="bg-[#353535db] p-[5px] tracking-[4px] font-bold rounded-full md:w-[300px] text-center max-md:text-[0.8rem]">
+                $DGI - $81M MC
+              </div>
+              <div className="bg-[#353535db] p-[5px] tracking-[4px] font-bold rounded-full md:w-[300px] text-center max-md:text-[0.8rem]">
+                $KIZUNA- $58M MC
+              </div>
             </div>
           </div>
-          <div className="testimo">
-            <div className="head">TESTIMONIES</div>
-            <div className="boxs">
-              <div className="img"></div>
-              <div className="img"></div>
-              <div className="img"></div>
-              <div className="img"></div>
+          <div className="my-[3rem] gap-[2rem] p-[20px] items-center flex flex-col rounded-[50px] md:w-[400px] border-4 border-[#817f7fde]">
+            <div className="text-left items-lastbase max-md:text-[1rem] text-[2rem] font-extrabold tracking-[6px]">
+              TESTIMONIES
             </div>
-            <button className="view">View More</button>
+            <div className="grid max-md:grid-cols-1 grid-cols-2 gap-[10px]">
+              <div className="bg-[#d9d9d9] w-[148px] h-[156px]"></div>
+              <div className="bg-[#d9d9d9] w-[148px] h-[156px]"></div>
+              <div className="bg-[#d9d9d9] w-[148px] h-[156px]"></div>
+              <div className="bg-[#d9d9d9] w-[148px] h-[156px]"></div>
+            </div>
+            <button className="bg-[#01c300] rounded-full p-[10px] text-center items-center">
+              View More
+            </button>
           </div>
         </div>
-        <div className="recentWork">
-          <h1>RECENT WORKS</h1>
+        <div className="md:mt-[3rem] flex flex-col gap-[20px] flex-nowrap">
+          <h1 className="text-[2rem] font-bold tracking-[5px] max-md:text-[1rem]">
+            RECENT WORKS
+          </h1>
 
-          <div className="workCont">
-            <span className="say">
+          <div className="bg-[#353535db] rounded-[100px] max-md:px-[20px] p-[50px] flex flex-col gap-[10px] items-center">
+            <span className="text-[1.3rem] max-md:text-[.9rem] font-medium tracking-[3px]">
               Better Days Through Crypto has been at the forefront of the crypto
               industry, bringing innovative solutions to help our clients
               succeed. our projects have been instrumental in driving success
@@ -40,7 +55,7 @@ const Service = () => {
               Explore our recnt projects below and see for yourself how we are
               changing the game throught crypto marketing{" "}
             </span>
-            <div className="proWork">
+            <div className="grid grid-cols-2 gap-[10px]">
               <img
                 src="https://s3-alpha-sig.figma.com/img/4948/28c8/a34ed7b4fb3524cc8be3f83017b1962c?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RE~XhKT~X2Gx204l7yHd6M5WF3pXYHvtcBodD3muSqkbPwDnZjzuzP~uayZkm9wdkXNQjXVElggN-~LdjWeKSI1QoJxLTR~cp-E6YMvz2LXa-u9oX8J0aVl0BoQKmMHrwvKe0j1TeO0UaCKRuccvd04~bLnrw9-rmNnbQ-7WPBuTRhIQNBSyMqV-2D1kLB9Q-1RPjspWEVQIVuJoj4FxnmufmeAIwIXuM3fAA6~61lKDvI5RZ94qkSKH-SJ-6jSUV8dbro5YOz~loDDdqPxBVMIefa6n2toYfHtXXklw39oTIontis1bWt4z8dfLEFd~nHfd1Q0P2rXcuqT0PunCvg__"
                 alt=""
@@ -69,9 +84,12 @@ const Service = () => {
           </div>
         </div>
       </div>
-      <div className="dev">
-        <h1> WHAT DEVELOPERS’ ARE SAYING</h1>
-        <div className="divSay">
+      <div className="mt-[8rem] bg-[#353535db] p-[20px] flex flex-col gap-[20px] text-center">
+        <h1 className="Poppins md:text-[2rem] max-md:text-[1.2rem] font-extrabold tracking-[8px]">
+          {" "}
+          WHAT DEVELOPERS’ ARE SAYING
+        </h1>
+        <div className="Poppins text-center text-[1.2rem] max-md:text-[1rem] font-bold tracking-[2px]">
           Lorem ipsum dolor sit amet consectetur. Sed amet sed neque sit ut leo
           at habitasse mi. Ut condimentum lorem eget id dictum. Eros et dictum
           venenatis feugiat condimentum et pellentesque elementum
@@ -81,12 +99,12 @@ const Service = () => {
           Ut condimentum lorem{" "}
         </div>
       </div>
-      <div className="video">
+      <div className="my-[2rem] max-md:mx-[1rem] items-center text-center place-items-center">
         <video
           src="https://s3-figma-videos-production-sig.figma.com/video/1364613467625394021/TEAM/e032/f232/-ef2b-4230-98b7-db99ac198a7e?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lT2W-Jr7ZfI24picXqqr~afuXa92EG2nVOlLsC5xD7vGgIkpfNMa8xbA4ydgSSLDjUxSqXj2njwsJ1itaRxkkMJzkYrsGRjQqmupVZ1lOfJpFhEmAdsi1ccUQD3PnHJzbLUMoNAsS35Mb~Q~X3DXpN6oIhR8DML9yXQpH1RMxQR0ePKp75tT72JgoIsXRHA5IwQhr5IsMIJCfRhMa1P6j44R7S2yjXz483GoSbAtiDNGmWeSnVJPFtMS6VRNkJ2uIudWiZGIpo60Sl7s4ME-N6d1lXTer0b342rjyaZx9FNMjyY1vVsHEfPBoLBPuyaRdpG4BHuI7lpsuLHYuR2yTw__"
           muted
           autoPlay
-          className="play"
+          className="md:h-[700px] w-[100%]"
         ></video>
       </div>
 

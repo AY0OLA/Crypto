@@ -185,7 +185,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="p-[4rem] flex flex-col text-center items-center justify-center flex-wrap">
+        <div className="p-[4rem] flex flex-col text-center items-center justify-center flex-wrap max-md:px-[1rem]">
           <div className="flex flex-col justify-center items-center">
             <div className="text-[#fff] text-[2rem] max-lg:text-[1.2rem] font-bold leading-8 tracking-[6px]">
               Featured Projects

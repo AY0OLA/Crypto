@@ -4,7 +4,7 @@ import Footer from "../Footer/Footer";
 const Contact = () => {
   return (
     <>
-      <div class="pt-[1rem] text-center">
+      <div class="pt-[9rem] text-center">
         <h1 className="max-md:text-[1.5rem] text-[2.5rem] font-[900] leading-6 uppercase text-center">
           contact
         </h1>

@@ -266,12 +266,12 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="mt-[8rem] bg-[#353535db] p-[40px] flex flex-col text-center gap-[20px]">
-          <h1 className="text-[#fff] text-[30px] font-bold tracking-[8px] max-md:text-[10px]">
+        <div className="mt-[8rem] bg-[#353535db] p-[20px] flex flex-col gap-[20px] text-center">
+          <h1 className="Poppins md:text-[2rem] max-md:text-[1.2rem] font-extrabold tracking-[8px]">
             {" "}
             WHAT DEVELOPERS’ ARE SAYING
           </h1>
-          <div className="text-center text-[16px] tracking-[2px] font-bold">
+          <div className="Poppins text-center text-[1.2rem] max-md:text-[1rem] font-bold tracking-[2px]">
             Lorem ipsum dolor sit amet consectetur. Sed amet sed neque sit ut
             leo at habitasse mi. Ut condimentum lorem eget id dictum. Eros et
             dictum venenatis feugiat condimentum et pellentesque elementum

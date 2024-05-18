@@ -75,7 +75,7 @@ const Home = () => {
                 Get upto 250+ pro shillers for your project.
               </span>
 
-              <div className="flex gap-[30px] mt-[3rem]">
+              <div className="flex flex-wrap gap-[30px] mt-[3rem]">
                 <Link
                   to={"/team"}
                   className="rounded-[40px] bg-[#01c300] p-[10px] font-bold tracking-[2px] "

@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../Footer/Footer";
+import { Link } from "react-router-dom";
 
 const Project = () => {
   return (
@@ -42,12 +43,12 @@ const Project = () => {
             a positive atmosphere, attracting incoming investors and promoting
             healthy, confident discussions. Our goal is to establish a
             supportive ecosystem that propels your project forward.
-            <a
-              href="#"
+            <Link
+              to={"/team"}
               class="bg-[#01c300] text-center w-[140px] p-[10px] rounded-[30px] text-[1rem] text-[#fff]"
             >
               Book Now
-            </a>
+            </Link>
           </div>
         </div>
         <div class="flex justify-center max-md:flex-wrap gap-[7rem]">
@@ -68,12 +69,12 @@ const Project = () => {
             a positive atmosphere, attracting incoming investors and promoting
             healthy, confident discussions. Our goal is to establish a
             supportive ecosystem that propels your project forward.
-            <a
-              href="#"
+            <Link
+              to={"/team"}
               class="bg-[#01c300] text-center w-[140px] p-[10px] rounded-[30px] text-[1rem] text-[#fff]"
             >
               Apply Now
-            </a>
+            </Link>
           </div>
         </div>
         <div class="flex justify-center max-md:flex-wrap gap-[7rem] flex-row-reverse	">
@@ -92,12 +93,12 @@ const Project = () => {
             strategic public awareness campaigns, we effectively increase
             recognition, drive engagement,setting it up for success and
             long-term growth in a competitive landscape.
-            <a
-              href="#"
+            <Link
+              to={"/team"}
               class="bg-[#01c300] text-center w-[140px] p-[10px] rounded-[30px] text-[1rem] text-[#fff]"
             >
               Book Now
-            </a>
+            </Link>
           </div>
         </div>
         <div class="flex justify-center max-md:flex-wrap gap-[7rem]">
@@ -114,12 +115,12 @@ const Project = () => {
             architecto eius doloribus. Autem quia, quo dolore ipsum numquam hic
             ab facilis laborum magnam iste aliquam rerum, neque aliquid
             blanditiis!
-            <a
-              href="#"
+            <Link
+              to={"/team"}
               class="bg-[#01c300] text-center w-[140px] p-[10px] rounded-[30px] text-[1rem] text-[#fff]"
             >
               Book Now
-            </a>
+            </Link>
           </div>
           <div class="text-[#fff] text-[1rem] font-medium flex flex-col gap-[3rem]">
             {/* <div class="text-[3rem] font-extrabold max-md:text-[1.4rem]">

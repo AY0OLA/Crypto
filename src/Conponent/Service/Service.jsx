@@ -90,13 +90,14 @@ const Service = () => {
           WHAT DEVELOPERS’ ARE SAYING
         </h1>
         <div className="Poppins text-center text-[1.2rem] max-md:text-[1rem] font-bold tracking-[2px]">
-          Lorem ipsum dolor sit amet consectetur. Sed amet sed neque sit ut leo
-          at habitasse mi. Ut condimentum lorem eget id dictum. Eros et dictum
-          venenatis feugiat condimentum et pellentesque elementum
-          vulputate.Lorem ipsum dolor sit amet consectetur. Sed amet sed neque
-          sit ut leo at habitasse mi. Ut condimentum lorem .Lorem ipsum dolor
-          sit amet consectetur. Sed amet sed neque sit ut leo at habitasse mi.
-          Ut condimentum lorem{" "}
+          Thank you so much for the amazing job you're doing! Your marketing
+          efforts have exceeded our expectations in every way. Our community is
+          growing rapidly, and the quality of engagement is top-notch. We've
+          seen a significant increase in token sales and partnerships, and we're
+          confident that your work will continue to drive our project's success.
+          Your team's expertise, creativity, and dedication are invaluable to
+          us. Keep shining - we're excited to see what the future holds for our
+          project with your support
         </div>
       </div>
       <div className="my-[2rem] max-md:mx-[1rem] items-center text-center place-items-center">

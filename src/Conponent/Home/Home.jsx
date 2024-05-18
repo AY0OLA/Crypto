@@ -211,7 +211,7 @@ const Home = () => {
           </div>
 
           <div className="mt-[3rem] flex flex-wrap items-center text-center justify-center gap-[20px]">
-            <div className="flex flex-col rounded-[50px] p-[30px] bg-[#353535db]">
+            <div className="flex flex-col rounded-[50px] max-md:p-[15px] p-[30px] bg-[#353535db]">
               <span className="text-[#fff] font-bold tracking-[3px] mx-[1rem]">
                 $NINU - $8.9M MC
               </span>
@@ -225,7 +225,7 @@ const Home = () => {
                 $KIZUNA- $58M MC
               </span>
             </div>
-            <div className="flex flex-col rounded-[50px] p-[30px] bg-[#353535db]">
+            <div className="flex max-md:p-[15px] flex-col rounded-[50px] p-[30px] bg-[#353535db]">
               <span className="text-[#fff] font-bold tracking-[3px] mx-[1rem]">
                 $CRESO - $124M MC
               </span>
@@ -239,7 +239,7 @@ const Home = () => {
                 $TROLL - $128M MC
               </span>
             </div>
-            <div className="flex flex-col rounded-[50px] p-[30px] bg-[#353535db]">
+            <div className="flex max-md:p-[15px] flex-col rounded-[50px] p-[30px] bg-[#353535db]">
               <span className="text-[#fff] font-bold tracking-[3px] mx-[1rem]">
                 $PROMTIDE - $4.6M MC
               </span>
@@ -287,13 +287,15 @@ const Home = () => {
             WHAT DEVELOPERS’ ARE SAYING
           </h1>
           <div className="Poppins text-center text-[1.2rem] max-md:text-[1rem] font-bold tracking-[2px]">
-            Lorem ipsum dolor sit amet consectetur. Sed amet sed neque sit ut
-            leo at habitasse mi. Ut condimentum lorem eget id dictum. Eros et
-            dictum venenatis feugiat condimentum et pellentesque elementum
-            vulputate.Lorem ipsum dolor sit amet consectetur. Sed amet sed neque
-            sit ut leo at habitasse mi. Ut condimentum lorem .Lorem ipsum dolor
-            sit amet consectetur. Sed amet sed neque sit ut leo at habitasse mi.
-            Ut condimentum lorem{" "}
+            Wow, I'm blown away by the incredible work you've done so far! Your
+            team's organized outreach strategy has not only increased our social
+            media engagement by 300%, but has also attracted the attention of
+            key influencers and investors in the crypto space. Your
+            professionalism, expertise, and passion for crypto are evident in
+            every aspect of your work. Our project's visibility and credibility
+            have skyrocketed thanks to your efforts. Keep up the fantastic work
+            - I can't wait to see what the future holds for our project with
+            your support
           </div>
         </div>
 

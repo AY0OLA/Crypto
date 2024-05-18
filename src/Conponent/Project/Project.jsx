@@ -30,14 +30,18 @@ const Project = () => {
             alt=""
             class="aspect-[10/7] md:w-[615px]"
           />
-          <div class="text-[#fff] text-[1rem] font-medium flex flex-col gap-[3rem]">
+          <div class="text-[#fff] text-[1rem] font-bold flex flex-col gap-[3rem]">
             <div class="text-[3rem] font-extrabold  max-md:text-[1.4rem]">
               Proffessional AI raiding
             </div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ex
-            architecto eius doloribus. Autem quia, quo dolore ipsum numquam hic
-            ab facilis laborum magnam iste aliquam rerum, neque aliquid
-            blanditiis!
+            We offer expert raiding services for crypto projects, leveraging our
+            team's intellectual prowess and organic marketing expertise to
+            execute a carefully crafted strategy that drives targeted engagement
+            and growth for your project. By harnessing our skills, we create a
+            thriving community that encourages active participation and fosters
+            a positive atmosphere, attracting incoming investors and promoting
+            healthy, confident discussions. Our goal is to establish a
+            supportive ecosystem that propels your project forward.
             <a
               href="#"
               class="bg-[#01c300] text-center w-[140px] p-[10px] rounded-[30px] text-[1rem] text-[#fff]"
@@ -52,14 +56,18 @@ const Project = () => {
             alt=""
             class="aspect-[10/7] md:w-[615px]"
           />
-          <div class="text-[#fff] text-[1rem] font-medium flex flex-col gap-[3rem]">
-            <div class="text-[3rem] font-extrabold max-md:text-[1.4rem]">
-              FX Signal Room
+          <div class="text-[#fff] text-[1rem] font-bold flex flex-col gap-[3rem]">
+            <div class="text-[2rem] font-extrabold max-md:text-[1.4rem]">
+              REDDIT & DEXSCREENER UPVOTES
             </div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ex
-            architecto eius doloribus. Autem quia, quo dolore ipsum numquam hic
-            ab facilis laborum magnam iste aliquam rerum, neque aliquid
-            blanditiis!
+            We offer expert raiding services for crypto projects, leveraging our
+            team's intellectual prowess and organic marketing expertise to
+            execute a carefully crafted strategy that drives targeted engagement
+            and growth for your project. By harnessing our skills, we create a
+            thriving community that encourages active participation and fosters
+            a positive atmosphere, attracting incoming investors and promoting
+            healthy, confident discussions. Our goal is to establish a
+            supportive ecosystem that propels your project forward.
             <a
               href="#"
               class="bg-[#01c300] text-center w-[140px] p-[10px] rounded-[30px] text-[1rem] text-[#fff]"
@@ -74,14 +82,16 @@ const Project = () => {
             alt=""
             class="aspect-[10/7] md:w-[615px]"
           />
-          <div class="text-[#fff] text-[1rem] font-medium flex flex-col gap-[3rem]">
+          <div class="text-[#fff] text-[1rem] font-bold flex flex-col gap-[3rem]">
             <div class="text-[3rem] font-extrabold  max-md:text-[1.4rem]">
               Public Awareness
             </div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ex
-            architecto eius doloribus. Autem quia, quo dolore ipsum numquam hic
-            ab facilis laborum magnam iste aliquam rerum, neque aliquid
-            blanditiis!
+            Our services are designed to elevate your project's visibility and
+            credibility, cutting through the noise in the crowded crypto market
+            and positioning it among the top projects in the spotlight. Through
+            strategic public awareness campaigns, we effectively increase
+            recognition, drive engagement,setting it up for success and
+            long-term growth in a competitive landscape.
             <a
               href="#"
               class="bg-[#01c300] text-center w-[140px] p-[10px] rounded-[30px] text-[1rem] text-[#fff]"
@@ -96,25 +106,6 @@ const Project = () => {
             alt=""
             class="aspect-[10/7] md:w-[615px]"
           />
-          <div class="text-[#fff] text-[1rem] font-medium flex flex-col gap-[3rem]">
-            <div class="text-[3rem] font-extrabold max-md:text-[1.4rem]">
-              Technical Analysis Class
-            </div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ex
-            architecto eius doloribus. Autem quia, quo dolore ipsum numquam hic
-            ab facilis laborum magnam iste aliquam rerum, neque aliquid
-            blanditiis!
-            <a
-              href="#"
-              class="bg-[#01c300] text-center w-[140px] p-[10px] rounded-[30px] text-[1rem] text-[#fff]"
-            >
-              Apply Now
-            </a>
-          </div>
-        </div>
-        <div class="flex">
-          <div className="img"></div>
-
           <div class="text-[#fff] text-[1rem] font-medium flex flex-col gap-[3rem] md:w-[615px]">
             <div class="text-[3rem] font-extrabold max-md:text-[1.4rem]">
               MODs, Hype team & Graphics Designers
@@ -130,6 +121,40 @@ const Project = () => {
               Book Now
             </a>
           </div>
+          <div class="text-[#fff] text-[1rem] font-medium flex flex-col gap-[3rem]">
+            {/* <div class="text-[3rem] font-extrabold max-md:text-[1.4rem]">
+              Technical Analysis Class
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ex
+            architecto eius doloribus. Autem quia, quo dolore ipsum numquam hic
+            ab facilis laborum magnam iste aliquam rerum, neque aliquid
+            blanditiis!
+            <a
+              href="#"
+              class="bg-[#01c300] text-center w-[140px] p-[10px] rounded-[30px] text-[1rem] text-[#fff]"
+            >
+              Apply Now
+            </a> */}
+          </div>
+        </div>
+        <div class="flex">
+          <div className="img"></div>
+
+          {/* <div class="text-[#fff] text-[1rem] font-medium flex flex-col gap-[3rem] md:w-[615px]">
+            <div class="text-[3rem] font-extrabold max-md:text-[1.4rem]">
+              MODs, Hype team & Graphics Designers
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ex
+            architecto eius doloribus. Autem quia, quo dolore ipsum numquam hic
+            ab facilis laborum magnam iste aliquam rerum, neque aliquid
+            blanditiis!
+            <a
+              href="#"
+              class="bg-[#01c300] text-center w-[140px] p-[10px] rounded-[30px] text-[1rem] text-[#fff]"
+            >
+              Book Now
+            </a>
+          </div> */}
         </div>
       </div>
 

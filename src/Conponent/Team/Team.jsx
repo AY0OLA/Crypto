@@ -32,12 +32,11 @@ const Team = () => {
               alt=""
               class="max-md:blur-[10px] max-md:hover:blur-[0]"
             />
-            <div class="text-[#fff] text-[1.2rem] max-md:text-[0.9rem] font-normal">
+            <div class="text-[#fff] text-[1.6rem] max-md:text-[1.2rem] font-bold text-center items-center leading-3	">
               <div class="my-[1rem] text-[2rem] tracking-[5px] font-bold">
                 CEO
               </div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              molestiae vel quis fuga modi temporibus qui illo eveniet dolorum.
+              100mc
             </div>
           </div>
           <div class="flex flex-col gap-[1rem]">
@@ -46,12 +45,11 @@ const Team = () => {
               alt=""
               class="max-md:blur-[10px] max-md:hover:blur-[0]"
             />
-            <div class="text-[#fff] text-[1.2rem] max-md:text-[0.9rem] font-normal">
+            <div class="text-[#fff] text-[1.6rem] max-md:text-[0.9rem] font-bold text-center items-center leading-3	">
               <div class="my-[1rem] text-[2rem] tracking-[5px] font-bold">
                 CFO
               </div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              molestiae vel quis fuga modi temporibus qui illo eveniet dolorum.
+              Crypto boy
             </div>
           </div>
           <div class="flex flex-col gap-[1rem]">
@@ -60,12 +58,11 @@ const Team = () => {
               alt=""
               class="max-md:blur-[10px] max-md:hover:blur-[0]"
             />
-            <div class="text-[#fff] text-[1.2rem] max-md:text-[0.9rem] font-normal">
+            <div class="text-[#fff] text-[1.6rem] text-center items-center max-md:text-[0.9rem] font-bold leading-3	">
               <div class="my-[1rem] text-[2rem] tracking-[5px] font-bold">
                 ED
               </div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              molestiae vel quis fuga modi temporibus qui illo eveniet dolorum.
+              Wen 100x
             </div>
           </div>
           <div class="flex flex-col gap-[1rem]">
@@ -74,12 +71,11 @@ const Team = () => {
               alt=""
               class="max-md:blur-[10px] max-md:hover:blur-[0]"
             />
-            <div class="text-[#fff] text-[1.2rem] max-md:text-[0.9rem] font-normal">
+            <div class="text-[#fff] text-[1.6rem] max-md:text-[1.2rem] leading-3 font-bold text-center items-center">
               <div class="my-[1rem] text-[2rem] tracking-[5px] font-bold">
                 MD
               </div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              molestiae vel quis fuga modi temporibus qui illo eveniet dolorum.
+              Crypton.Eth
             </div>
           </div>
           <div class="flex flex-col gap-[1rem]">
@@ -88,12 +84,11 @@ const Team = () => {
               alt=""
               class="max-md:blur-[10px] max-md:hover:blur-[0]"
             />
-            <div class="text-[#fff] text-[1.2rem] max-md:text-[0.9rem] font-normal">
+            <div class="text-[#fff] text-[1.6rem] max-md:text-[1.2rem] font-bold text-center items-center leading-3">
               <div class="my-[1rem] text-[2rem] tracking-[5px] font-bold">
                 SPM
               </div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              molestiae vel quis fuga modi temporibus qui illo eveniet dolorum.
+              Km Crypton
             </div>
           </div>
           <div class="flex flex-col gap-[1rem]">
@@ -102,12 +97,11 @@ const Team = () => {
               alt=""
               class="max-md:blur-[10px] max-md:hover:blur-[0]"
             />
-            <div class="text-[#fff] text-[1.2rem] max-md:text-[0.9rem] font-normal">
+            <div class="text-[#fff] text-[1.6rem] leading-3 text-center items-center max-md:text-[1.2rem] font-bold">
               <div class="my-[1rem] text-[2rem] tracking-[5px] font-bold">
                 SPM
               </div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              molestiae vel quis fuga modi temporibus qui illo eveniet dolorum.
+              Nizzan GTR
             </div>
           </div>
         </div>

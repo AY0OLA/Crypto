@@ -15,33 +15,33 @@ const Footer = () => {
           </span>
         </div>
         <div className="flex flex-col gap-[10px]">
-          <a
-            href=""
+          <Link
+            to={"/"}
             className="text-[#fff] text-[1.2rem] font-[700] no-underline	"
           >
             Home
-          </a>
-          <a
-            href=""
+          </Link>
+          <Link
+            to={"/service"}
             className="text-[#fff] text-[1.2rem] font-[700] no-underline	"
           >
             Project
-          </a>
-          <a
-            href=""
+          </Link>
+          <Link
+            to={"/project"}
             className="text-[#fff] text-[1.2rem] font-[700] no-underline	"
           >
             Service
-          </a>
-          <a
-            href=""
+          </Link>
+          <Link
+            to={"/contact"}
             className="text-[#fff] text-[1.2rem] font-[700] no-underline	"
           >
             Teams
-          </a>
+          </Link>
         </div>
         <div className="flex flex-col gap-[10px]">
-          <Link to={"/contact"} className="text-[#fff] no-underline font-bold">
+          <Link to={"/team"} className="text-[#fff] no-underline font-bold">
             Contact
           </Link>
           <a href="#" className="text-[#fff] no-underline font-bold">

@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../Footer/Footer";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -67,7 +68,7 @@ const Home = () => {
         <div className="p-[3rem] flex flex-col justify-center items-center gap-[20px]">
           <div className="flex gap-[30px] flex-wrap">
             <div className="flex flex-col ">
-              <h1 className="md:w-[500px] text-[#fff] md:text-[3rem] text-[1rem]">
+              <h1 className="md:w-[500px] text-[#fff] md:text-[3rem] max-md:text-[2rem]">
                 Discover the power of Shilling
               </h1>
               <span className="text-[#fff] md:w-[250px] md:text-[1.5rem] text-[1rem] font-normal tracking-[4px]">
@@ -75,12 +76,18 @@ const Home = () => {
               </span>
 
               <div className="flex gap-[30px] mt-[3rem]">
-                <button className="rounded-[40px] bg-[#01c300] p-[10px] font-bold tracking-[2px] ">
+                <Link
+                  to={"/team"}
+                  className="rounded-[40px] bg-[#01c300] p-[10px] font-bold tracking-[2px] "
+                >
                   Book Online
-                </button>
-                <button className="rounded-[40px] bg-[#01c300] p-[10px] font-bold tracking-[2px]">
+                </Link>
+                <a
+                  href="https://t.me/BDTCGEM"
+                  className="rounded-[40px] bg-[#01c300] p-[10px] font-bold tracking-[2px]"
+                >
                   Book On Telegram
-                </button>
+                </a>
               </div>
             </div>
             <img
@@ -108,7 +115,7 @@ const Home = () => {
           </div>
           <div className="flex gap-[30px] flex-wrap">
             <div className="flex flex-col gap-[10px]">
-              <h1 className="md:w-[500px] text-[#fff] md:text-[3rem] text-[1rem]">
+              <h1 className="md:w-[500px] text-[#fff] md:text-[3rem] max-md:text-[2rem]">
                 Boost your project visibility with BDTC hype
               </h1>
               <div className="flex flex-col gap-[10px]">
@@ -120,16 +127,19 @@ const Home = () => {
                   <input type="radio" />
                   Provision for Hype men for projects
                 </div>
-                <div className="flex flex-nowrap	gap-[10px]">
+                <div className="flex flex-nowrap gap-[10px]">
                   <input type="radio" />
-                  Project call on all socials including telegram channel 1.6k
+                  Project call on all socials including telegram channel 12k+
                   subscribers and official X account.
                 </div>
               </div>
               <div>
-                <button className="rounded-[40px] bg-[#01c300] p-[10px] font-bold tracking-[2px]">
+                <Link
+                  to={"/team"}
+                  className="rounded-[40px] bg-[#01c300] p-[10px] font-bold tracking-[2px]"
+                >
                   Hype now
-                </button>
+                </Link>
               </div>
             </div>
             <img
@@ -140,13 +150,13 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="p-[30px] mt-[9rem] flex text-center items-center justify-center flex-wrap rounded-[50px] bg-[#353535db] max-lg:ml-[0.9rem] ml-[2rem] gap-[80px] relative max-w-[1430px] max-h-[884px]		">
+        <div className="p-[30px] mt-[9rem] flex text-center items-center justify-center flex-wrap rounded-[50px] bg-[#353535db] max-lg:ml-[0.9rem] ml-[2rem] max-md:gap-[20px] md:gap-[10rem] relative max-w-[1430px] max-h-[884px]		">
           <img
             src="https://s3-alpha-sig.figma.com/img/b772/54f7/dc14636791b1d527de32fabb8cd558e4?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Yqa2mn~ef46fwkPN6ZqDYetaegWe3PCOSfZ-5-HeZ5nKqJIdd--4KC-SKULFojoiPZvhlZNi3AF3O~eVBO2wIZj0Dlp~VDSW9sX~gVu~~We-agCqLEQ54BamkMAup7oNDbPTKSwz9jxlAwkUpi4YJ-oTcNORlUUPsfotAxrObgSZCcAwOvAc51gkYOYQ9~4mgBdKcSnwvQiqMoW~Qxzkjf3XvEC5SZb78H4bRqaB9EW~2p33zkFlCqku371bS0NmBj~GAzNsgxGymo6WJLz~k7SsYz53bbyTnCXyIjfjXQG~qQr3jh6S-WjXb2qvPVIgKbBGLZveDkc2Ify5xIy7DA__"
             alt=""
             className="max-md:left-[12rem] max-sm:left-[2rem] max-lg:left-[2rem] absolute w-[200px] top-[-6rem] left-[19rem]"
           />
-          <div className="mt-[9rem] flex flex-col gap-[30px]">
+          <div className="mt-[5rem] flex flex-col gap-[30px]">
             <span className="text-[#fff] text-[2rem] max-md:text-[1.5rem] font-bold tracking-[9px] w-[250px]">
               Need Pro Shillers ?
             </span>
@@ -154,33 +164,38 @@ const Home = () => {
               Optimize your project in 3 steps
             </span>
             <div>
-              <button className="p-[10px] rounded-[40px] bg-[#01c300] text-[#fff] text-[1.4rem] tracking-[3px]">
+              <Link
+                to={"/team"}
+                className="p-[10px] rounded-[40px] bg-[#01c300] text-[#fff] text-[1.4rem] tracking-[3px]"
+              >
                 Book now
-              </button>
+              </Link>
             </div>
           </div>
           <div className="flex flex-col gap-[40px]">
             <div className="flex flex-col gap-[20px]">
-              <div className="text-[2rem] max-md:text-[1.5rem] font-bold tracking-[6.6px]">
+              <div className="text-[2rem] max-md:text-[1.5rem] text-left font-extrabold tracking-[6.6px]">
                 Step 1
               </div>
-              <span className="text-[1rem] w-[290px] font-bold tracking-[3.3px]">
+              <span className="text-[1rem]  font-bold text-left tracking-[3.3px]">
                 Connect with our specialist for project promotions
               </span>
             </div>
             <div className="flex flex-col gap-[20px]">
-              <div className="text-[2rem] max-md:text-[1.5rem] font-bold tracking-[6.6px]">
+              <div className="text-[2rem] max-md:text-[1.5rem] text-left font-extrabold tracking-[6.6px]">
                 Step 2
               </div>
-              <span className="text-[1rem] w-[290px] font-bold tracking-[3.3px]">
+              <span className="text-[1rem] text-left  font-bold tracking-[3.3px]">
                 Personalized promotion packages for your product needs
               </span>
             </div>
             <div className="flex flex-col gap-[20px]">
-              <div className="text-[2rem] max-md:text-[1.5rem] font-bold tracking-[6.6px]">
-                Step 2
+              <div className="text-[2rem] max-md:text-[1.5rem] text-left font-extrabold tracking-[6.6px]">
+                Step 3
               </div>
-              <span className="text-[1rem] w-[290px] font-bold tracking-[3.3px]"></span>
+              <span className="text-[1rem] text-left font-bold tracking-[3.3px]">
+                Connect with teams on Telegram
+              </span>
             </div>
           </div>
         </div>
@@ -250,7 +265,7 @@ const Home = () => {
           <div className="mt-[2rem] flex justify-center items-center flex-wrap gap-[40px]">
             <div className="mt-[2rem]">
               <span className="text-[#fff] text-[2rem] max-md:text-[1.4rem] font-bold gap-[24px] flex flex-col tracking-[5px]">
-                50+ <span>Happy Clients</span>
+                300+ <span>Happy Clients</span>
               </span>
             </div>
             <div className="mt-[2rem]">
@@ -260,7 +275,7 @@ const Home = () => {
             </div>
             <div className="mt-[2rem]">
               <span className="text-[#fff] text-[2rem] max-md:text-[1.4rem] font-bold gap-[24px] flex flex-col tracking-[5px]">
-                14 Hrs Per Day <span>Social Campaign</span>
+                16 Hrs Per Day <span>Social Campaign</span>
               </span>
             </div>
           </div>

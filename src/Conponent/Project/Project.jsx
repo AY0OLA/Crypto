@@ -45,7 +45,7 @@ const Project = () => {
             supportive ecosystem that propels your project forward.
             <Link
               to={"/team"}
-              class="bg-[#01c300] text-center w-[140px] p-[10px] rounded-[30px] text-[1rem] text-[#fff]"
+              class="bg-[#01c300] text-center w-[140px] max-md:p-[15px] p-[10px] rounded-[30px] text-[1rem] text-[#fff]"
             >
               Book Now
             </Link>
@@ -71,7 +71,7 @@ const Project = () => {
             supportive ecosystem that propels your project forward.
             <Link
               to={"/team"}
-              class="bg-[#01c300] text-center w-[140px] p-[10px] rounded-[30px] text-[1rem] text-[#fff]"
+              class="bg-[#01c300] text-center w-[140px] max-md:p-[15px] p-[10px] rounded-[30px] text-[1rem] text-[#fff]"
             >
               Apply Now
             </Link>
@@ -95,7 +95,7 @@ const Project = () => {
             long-term growth in a competitive landscape.
             <Link
               to={"/team"}
-              class="bg-[#01c300] text-center w-[140px] p-[10px] rounded-[30px] text-[1rem] text-[#fff]"
+              class="bg-[#01c300] text-center w-[140px] max-md:p-[15px] p-[10px] rounded-[30px] text-[1rem] text-[#fff]"
             >
               Book Now
             </Link>
@@ -117,7 +117,7 @@ const Project = () => {
             blanditiis!
             <Link
               to={"/team"}
-              class="bg-[#01c300] text-center w-[140px] p-[10px] rounded-[30px] text-[1rem] text-[#fff]"
+              class="bg-[#01c300] text-center w-[140px] max-md:p-[15px] p-[10px] rounded-[30px] text-[1rem] text-[#fff]"
             >
               Book Now
             </Link>

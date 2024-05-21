@@ -44,7 +44,10 @@ const Footer = () => {
           <Link to={"/team"} className="text-[#fff] no-underline font-bold">
             Contact
           </Link>
-          <a href="#" className="text-[#fff] no-underline font-bold">
+          <a
+            href="https://t.me/BDTCGEM"
+            className="text-[#fff] no-underline font-bold"
+          >
             Telegram
           </a>
           <Link to={"/"} className="text-[#fff] no-underline font-bold">

@@ -1,14 +1,34 @@
-import React from "react";
+import React, { useRef } from "react";
 import Footer from "../Footer/Footer";
 import { MdEmail } from "react-icons/md";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaTelegram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_680o7jw", "template_xasiq0a", form.current, {
+        publicKey: "7B5XEIPHdT1xTfTXb",
+      })
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("Message sent");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <>
-      <div class="pt-[9rem] text-center">
+      <div className="pt-[9rem] text-center">
         <h1 className="max-md:text-[1.5rem] text-[2.5rem] font-[900] leading-6 uppercase text-center">
           contact
         </h1>
@@ -18,50 +38,53 @@ const Contact = () => {
         </span>
       </div>
       <form
-        action=""
+        ref={form}
+        onSubmit={sendEmail}
         className="flex flex-col gap-[10px] p-[20px] text-center items-center"
       >
         <div className="flex flex-col gap-[2px] text-left">
-          <span className="Poppins text-[20px] font-bold tracking-wide">
+          <label className="Poppins text-[20px] font-bold tracking-wide">
             Name
-          </span>
+          </label>
           <input
             type="text"
+            name="user_name"
+            required
             className="rounded-[20px] w-[296px] p-[10px] text-[#000] bg-[#fff] outline-0 text-[1.2rem] font-extrabold"
           />
         </div>
         <div className="flex flex-col gap-[2px] text-left">
-          <span className="Poppins text-[20px] font-bold tracking-wide">
+          <label className="Poppins text-[20px] font-bold tracking-wide">
             Email
-          </span>
+          </label>
           <input
             type="email"
+            name="user_email"
+            required
             className="rounded-[20px] w-[296px] p-[10px] text-[#000] bg-[#fff] outline-0 text-[1.2rem] font-extrabold"
           />
         </div>
         <div className="flex flex-col gap-[2px] text-left">
-          <span className="Poppins text-[20px] font-bold tracking-wide">
-            Subject
-          </span>
-          <input
-            type="text"
+          <label className="Poppins text-[20px] font-bold tracking-wide">
+            Message
+          </label>
+          <textarea
+            name="message"
+            required
             className="rounded-[20px] w-[296px] p-[10px] text-[#000] bg-[#fff] outline-0 text-[1.2rem] font-extrabold"
           />
         </div>
-
         <button
           type="submit"
-          className="mt-[3rem] rounded-full text-center w-[316px] p-[20px] bg-[#01c300] text-[#fff] text-[1.3rem] mb-[3rem]"
+          value="Send"
+          className="mt-[3rem] rounded-full text-center w-[316px] p-[20px] cursor-pointer bg-[#01c300] text-[#fff] text-[1.3rem] mb-[3rem]"
         >
-          Send Message
+          Send
         </button>
       </form>
       <div className="mt-[3rem] bg-[#353535DB] flex flex-col justify-center text-center items-center p-[40px] gap-[2rem]">
         <h1 className="text-[2rem] font-extrabold tracking-[4px]">Visit Us</h1>
         <div className="flex gap-[2rem]">
-          <a href="https://bdtclive@gmail.com">
-            <MdEmail className="text-[2.5rem]" />
-          </a>
           <a href="https://youtube.com/@BDTCLive?si=wDlrGIEWsJCYBjbC">
             <IoLogoYoutube className="text-[2.5rem] text-[red]" />
           </a>

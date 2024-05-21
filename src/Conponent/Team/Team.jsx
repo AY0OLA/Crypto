@@ -20,7 +20,7 @@ const Team = () => {
           />
           <Link
             to={"/team"}
-            class="bg-[#01c300] text-center p-[10px] tracking-[2px] rounded-[20px] text-[#fff] "
+            class="bg-[#01c300] text-center p-[10px] max-md:p-[15px] tracking-[2px] rounded-[20px] text-[#fff] "
           >
             Connect
           </Link>

@@ -36,7 +36,7 @@ const Service = () => {
               <div className="bg-[#d9d9d9] w-[148px] h-[156px]"></div>
               <div className="bg-[#d9d9d9] w-[148px] h-[156px]"></div>
             </div>
-            <button className="bg-[#01c300] rounded-full p-[10px] text-center items-center">
+            <button className="bg-[#01c300] rounded-full max-md:p-[15px] p-[10px] text-center items-center">
               View More
             </button>
           </div>

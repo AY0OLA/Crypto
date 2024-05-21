@@ -78,13 +78,13 @@ const Home = () => {
               <div className="flex flex-wrap gap-[30px] mt-[3rem]">
                 <Link
                   to={"/team"}
-                  className="rounded-[40px] bg-[#01c300] p-[10px] font-bold tracking-[2px] "
+                  className="rounded-[40px] bg-[#01c300] max-md:p-[15px] p-[10px] font-bold tracking-[2px] "
                 >
                   Book Online
                 </Link>
                 <a
                   href="https://t.me/BDTCGEM"
-                  className="rounded-[40px] bg-[#01c300] p-[10px] font-bold tracking-[2px]"
+                  className="rounded-[40px] bg-[#01c300] max-md:p-[15px] p-[10px] font-bold tracking-[2px]"
                 >
                   Book On Telegram
                 </a>
@@ -133,10 +133,10 @@ const Home = () => {
                   subscribers and official X account.
                 </div>
               </div>
-              <div>
+              <div className="mt-[20px]">
                 <Link
                   to={"/team"}
-                  className="rounded-[40px] bg-[#01c300] p-[10px] font-bold tracking-[2px]"
+                  className="rounded-[40px] bg-[#01c300] max-md:p-[15px] p-[10px] font-bold tracking-[2px]"
                 >
                   Hype now
                 </Link>
@@ -166,7 +166,7 @@ const Home = () => {
             <div>
               <Link
                 to={"/team"}
-                className="p-[10px] rounded-[40px] bg-[#01c300] text-[#fff] text-[1.4rem] tracking-[3px]"
+                className="p-[10px] max-md:p-[15px] rounded-[40px] bg-[#01c300] text-[#fff] text-[1.4rem] tracking-[3px]"
               >
                 Book now
               </Link>

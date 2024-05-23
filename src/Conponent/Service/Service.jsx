@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../Footer/Footer";
+import { Test } from "../../Testimonies";
 
 const Service = () => {
   return (
@@ -30,15 +31,23 @@ const Service = () => {
             <div className="text-left items-lastbase max-md:text-[1rem] text-[2rem] font-extrabold tracking-[6px]">
               TESTIMONIES
             </div>
-            <div className="grid max-md:grid-cols-1 grid-cols-2 gap-[10px]">
-              <div className="bg-[#d9d9d9] w-[148px] h-[156px]"></div>
-              <div className="bg-[#d9d9d9] w-[148px] h-[156px]"></div>
-              <div className="bg-[#d9d9d9] w-[148px] h-[156px]"></div>
-              <div className="bg-[#d9d9d9] w-[148px] h-[156px]"></div>
+            <div className="grid max-md:grid-cols-1 grid-cols-2 gap-[20px]">
+              {Test.map((tests) => {
+                return (
+                  <div key={tests.id} className="gap-[20px]">
+                    <img
+                      src={tests.img}
+                      alt=""
+                      className="w-[148px] h-[156px] cursor-pointer"
+                    />
+                  </div>
+                );
+              })}
             </div>
-            <button className="bg-[#01c300] rounded-full max-md:p-[15px] p-[10px] text-center items-center">
+
+            {/* <button className="bg-[#01c300] rounded-full max-md:p-[15px] p-[10px] text-center items-center">
               View More
-            </button>
+            </button> */}
           </div>
         </div>
         <div className="md:mt-[3rem] flex flex-col gap-[20px] flex-nowrap">
@@ -102,7 +111,7 @@ const Service = () => {
       </div>
       <div className="my-[2rem] max-md:mx-[1rem] items-center text-center place-items-center">
         <video
-          src="https://s3-figma-videos-production-sig.figma.com/video/1364613467625394021/TEAM/e032/f232/-ef2b-4230-98b7-db99ac198a7e?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lT2W-Jr7ZfI24picXqqr~afuXa92EG2nVOlLsC5xD7vGgIkpfNMa8xbA4ydgSSLDjUxSqXj2njwsJ1itaRxkkMJzkYrsGRjQqmupVZ1lOfJpFhEmAdsi1ccUQD3PnHJzbLUMoNAsS35Mb~Q~X3DXpN6oIhR8DML9yXQpH1RMxQR0ePKp75tT72JgoIsXRHA5IwQhr5IsMIJCfRhMa1P6j44R7S2yjXz483GoSbAtiDNGmWeSnVJPFtMS6VRNkJ2uIudWiZGIpo60Sl7s4ME-N6d1lXTer0b342rjyaZx9FNMjyY1vVsHEfPBoLBPuyaRdpG4BHuI7lpsuLHYuR2yTw__"
+          src="https://s3-figma-videos-production-sig.figma.com/video/1364613467625394021/TEAM/13ae/79e9/-052f-458b-b9e6-099d8da9e331?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nzP7kFmOCpTEoYVyLFS4cOktxLDBpaImk0x78Ywpww3XACtHtw38UlRD-EHA3Y-jQ~UUfF0PThEE0XSia62RuvByPLLgLQKdAcRuKrAT~~L640dcPKeHOJZDzH89ujLD7xLgVNSwnC53tMnNTOTaUncF6hdnaMEp8sc9QjjhSu3ct-iMooIxHrqy69IH6umYsTdX-T-i7AePDKIbc8K7~cKHIwtDYZqEVIvEn1V~5AR6xpCpEtz6MhjX5C~dMX3FwcoqWGfy5Pxb2GbdxP-eUB7404A1tpXBOZQuayVvZ9rxK3MtX9F4P6os~UW12yqxfiXENGg5I65anSS9g5K4aw__"
           muted
           autoPlay
           className="md:h-[700px] w-[100%]"

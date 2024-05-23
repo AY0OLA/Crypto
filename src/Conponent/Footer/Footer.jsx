@@ -50,9 +50,9 @@ const Footer = () => {
           >
             Telegram
           </a>
-          <Link to={"/"} className="text-[#fff] no-underline font-bold">
+          {/* <Link to={"/service"} className="text-[#fff] no-underline font-bold">
             Testimonies
-          </Link>
+          </Link> */}
         </div>
       </div>
     </>

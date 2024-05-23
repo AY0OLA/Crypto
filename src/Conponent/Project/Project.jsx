@@ -12,7 +12,7 @@ const Project = () => {
             alt=""
             class="aspect-[10/7] md:w-[615px]"
           />
-          <div class="text-[#fff] text-[1rem] font-medium">
+          <div class="text-[#fff] text-[1rem] font-bold">
             <div class="text-[3rem] max-md:text-[1.6rem] font-extrabold mb-[2rem] text-center uppercase">
               our work
             </div>
@@ -27,7 +27,7 @@ const Project = () => {
         </div>
         <div class="flex justify-center max-md:flex-wrap gap-[7rem] flex-row-reverse	">
           <img
-            src="https://s3-alpha-sig.figma.com/img/b6cc/88fb/afc437cf8d2845e399d2411d3c1bfa33?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nSXi2J~DrEDHS2vRcf-rT-CalQA6tafx3TueadRVGT4GeL1t0Alxt3LeYfcoVN5uCay3yIvb98nbW73T5S3eCt1jvOSwa28~omLnuex531UAs17EnZNNQYKKaiAYiEG1lyjeqFGHYgM-ICQyIUl6ZjJ~47afsDnAv81DuoS9XjedppNss1cXLahJKX0HH1KOx0qV7lLRYUnq9HoKQUwvk4DGuq-8z8aJo3-0uLyDaaEYGkrgOklUN7oF8sveDGCmkGo0UN6gGVmq6KklCn8y3oDmp-UZ5IOeAh-0K3Iyz7gBQbH2Ffp0gFMxCM-unTRgMSyMmOxjJo9SUTrjTc3TDg__"
+            src="https://s3-alpha-sig.figma.com/img/a0ab/6426/569742a6abe8501aec809e1c1847046c?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MQKWEf0Hj7Qx-W5bN9WTQPpiv25s2pC3vzP9Nnld97JkAR6ubeFsxz5xWj4tLY29RtTLNPvLEcinBsJtq~rQ9K3w5IaWwykDQza4VB0ysKcv-YWgYYXn-RYCylRuZpgfIpE9yRyv8usm5xwCaQYlqPNarzjOcSQr4KqFMp9oKGamRhyz06YdU9Ga3KesOvJZuQy0X79Iw8t8d1SsU47I9MNiq9jE34iIfgDOQlZ42cxCjDwqLrspym0DN~0imCabbmezFGUgaVAV5szMPoJinslIhk7Drtj2kIZop3YhR8zrIte7GrU0jgFBh6HoBPHZSAbo9IntpnIdbApFNo7MFg__"
             alt=""
             class="aspect-[10/7] md:w-[615px]"
           />
@@ -107,14 +107,16 @@ const Project = () => {
             alt=""
             class="aspect-[10/7] md:w-[615px]"
           />
-          <div class="text-[#fff] text-[1rem] font-medium flex flex-col gap-[3rem] md:w-[615px]">
+          <div class="text-[#fff] text-[1rem] font-bold flex flex-col gap-[3rem] md:w-[615px]">
             <div class="text-[3rem] font-extrabold max-md:text-[1.4rem]">
               MODs, Hype team & Graphics Designers
             </div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ex
-            architecto eius doloribus. Autem quia, quo dolore ipsum numquam hic
-            ab facilis laborum magnam iste aliquam rerum, neque aliquid
-            blanditiis!
+            Experienced community managers who ensure a positive and engaging
+            environment for your project's online presence. A group of
+            enthusiastic and influential crypto advocates who generate buzz and
+            excitement around your project. Creative professionals who craft
+            visually stunning graphics, logos, and branding materials to help
+            your project stand out in a crowded market.
             <Link
               to={"/team"}
               class="bg-[#01c300] text-center w-[140px] max-md:p-[15px] p-[10px] rounded-[30px] text-[1rem] text-[#fff]"

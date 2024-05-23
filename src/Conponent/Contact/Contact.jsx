@@ -13,16 +13,16 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_680o7jw", "template_xasiq0a", form.current, {
-        publicKey: "7B5XEIPHdT1xTfTXb",
+      .sendForm("service_jxdc5dx", "template_ybp0vwn", form.current, {
+        publicKey: "1vTzDgZvgFH4jTrkc",
       })
       .then(
-        (result) => {
-          console.log(result.text);
-          console.log("Message sent");
+        () => {
+          console.log("SUCCESS");
+          form.current.reset();
         },
         (error) => {
-          console.log(error.text);
+          console.log("FAILED...", error.text);
         }
       );
   };

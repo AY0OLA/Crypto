@@ -76,16 +76,6 @@ const Navbar = () => {
             >
               Team
             </Link>
-            <Link
-              className={
-                pathName === "/team"
-                  ? ""
-                  : "text-secondary-400 text-[1.6rem] text-[#cbd5e1]"
-              }
-              to="/team"
-            >
-              Contact
-            </Link>
           </div>
           <Link to="/team" className="hidden lg:flex ">
             <div className="text-[#cbd5e1] bg-[#000] font-medium p-[10px] rounded-[70px] text-[1.4rem] ml-[5rem]">
@@ -115,7 +105,7 @@ const Navbar = () => {
             <Link
               to="/"
               className="text-[1.7rem] text-[#cbd5e1]"
-              // onClick={() => setIsOpen(false)}
+              onClick={() => setIsOpen(false)}
             >
               Home
             </Link>
@@ -139,13 +129,6 @@ const Navbar = () => {
               onClick={() => setIsOpen(false)}
             >
               Team
-            </Link>
-            <Link
-              to="/team"
-              className="text-[1.7rem] text-[#cbd5e1]"
-              onClick={() => setIsOpen(false)}
-            >
-              Contact
             </Link>
             <Link to="/team" onClick={() => setIsOpen(false)}>
               <div

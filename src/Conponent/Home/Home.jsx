@@ -19,7 +19,7 @@ const Home = () => {
           </span>
         </div>
 
-        <div className="p-[3rem] flex flex-col text-[#fff] text-[1.5rem] max-md:text-[1rem] font-medium tracking-[5px]">
+        <div className="p-[3rem] max-md:px-[.5rem] flex flex-col text-[#fff] text-[1.5rem] max-md:text-[1rem] font-medium tracking-[5px]">
           <span className="text-[2rem] max-md:text-[1.5rem] text-[#fff] font-bold tracking-[10px] mb-[1.5rem]">
             WHO WE ARE
           </span>
@@ -32,11 +32,11 @@ const Home = () => {
           bring your project to its full potential.
         </div>
 
-        <div className="flex p-[2rem] flex-col text-center items-center">
-          <span className="text-[#fff] text-[24px] font-bold tracking-[4px] ">
+        <div className="flex max-md:p-[0.2rem] p-[2rem] flex-col text-center items-center">
+          <span className="text-[#fff] max-md:text-[1.5rem] text-[2rem] font-bold tracking-[4px] ">
             Promoted by BDTC
           </span>
-          <div className="flex gap-[10px] mt-[1rem] items-center flex-wrap justify-center">
+          <div className=" gap-[10px] mt-[1rem] items-center grid grid-cols-5 max-md:grid-cols-2 max-sm:grid-cols-1 justify-center">
             <img
               src="https://s3-alpha-sig.figma.com/img/4948/28c8/a34ed7b4fb3524cc8be3f83017b1962c?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RE~XhKT~X2Gx204l7yHd6M5WF3pXYHvtcBodD3muSqkbPwDnZjzuzP~uayZkm9wdkXNQjXVElggN-~LdjWeKSI1QoJxLTR~cp-E6YMvz2LXa-u9oX8J0aVl0BoQKmMHrwvKe0j1TeO0UaCKRuccvd04~bLnrw9-rmNnbQ-7WPBuTRhIQNBSyMqV-2D1kLB9Q-1RPjspWEVQIVuJoj4FxnmufmeAIwIXuM3fAA6~61lKDvI5RZ94qkSKH-SJ-6jSUV8dbro5YOz~loDDdqPxBVMIefa6n2toYfHtXXklw39oTIontis1bWt4z8dfLEFd~nHfd1Q0P2rXcuqT0PunCvg__"
               alt=""
@@ -62,10 +62,35 @@ const Home = () => {
               alt=""
               className="w-[190px] h-[170px]"
             />
+            <img
+              src="https://s3-alpha-sig.figma.com/img/2640/549d/13c4342066eccabe9aa53c0a20207b83?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n1ZZ9kHedyqncgOEpCWP9xnYabVW4Fmbb-rd47zfr-SzMpluatagaWIqD~0wi58KhSvUOgu7GT4Tk6aYHPbf-2dmSmFSkqPyVObtvxzzLeUKCLZON6DRxUyUcLlSiQCBJymy2eDHzdpMLnoBhZofIOrtxPAonjvvlDSoqZiD3z0s2STDMPBe3jqQDyzLpGJt8gCdYmACF67UZX3gDdPd5Nu8qNNzLrQeXittJSl3MEK2ExaO63v1ez2sjA9nRfgPiclDk6tbEgUr9TaGMPudY4e-GKo16F5eF1yHiuM7jxxungBmMer770WHP9rt21Tiv6Tz0S-TKquXMLTYsNU-Rw__"
+              alt=""
+              className="w-[190px] h-[170px]"
+            />
+            <img
+              src="https://s3-alpha-sig.figma.com/img/c130/b5a7/fc737b24bdfe01ffdbc72ba739620d3a?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KLVaaYL67JUBC7tOf8LUJz7UNDP6Am1FU8vxCFYOUVJ96Y~pHRiteeWArstJYY4~~fA73-ICz2kSMtTujGCk9qtREwxyoe1Df5icfslE1lB2H~6p9S0Q5o2UAnqMoQnnqCrTJJxdD88qy5i7pND-o7Nq0tVbq3bHVmDItmJoF1EZPcDbG3bGezU7LtWNAfeThLFDkIqm9TaeIYcXi5Pz5RNmISnLnS22CIfJROmku73fMoNd5X6FTCV6kjSjzGZQRTbSxTkhKI3vKecsW1-JjMjorRB3zrzvwJH7vDmS5f83mUG28ljeAAvjf-W6TpM0cd-GodALzgzchBLmbjY-JQ__"
+              alt=""
+              className="w-[190px] h-[170px]"
+            />
+            <img
+              src="https://s3-alpha-sig.figma.com/img/f486/f158/81894a00e0f458037ed21aed10a30e03?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YqhGGmIlu~hU9fo2qvQEn1wBKqy8F1FFcOPFVCcEil5wNuSVGcyGPnc1MrebFtHjB6sS2TtQlDdLBbWO4MWK0NIZaqIRu5q0YBDWPsg~ntvLW0U8v2ixMVhiESmm2MwIylce~5v2ZaKM9oAoHlGVq5Q1ddO5AAsR5FXz~20MgrRW~2RV-TChO3LEU7NAzATAAUjNbgHYxiCtYoBgeKOkH0nOh4caIa-0blu9o5hePRQl2vMjPoi1fHAdTHFpublzY2DMcH6MZZtI0fGnV5mjnXiDZuFH8LLi36vrLzXvb0O9elbj2F3NVa5ZjIUfy2-c1~f7TaURFHIQl9hAdSgBsA__"
+              alt=""
+              className="w-[190px] h-[170px]"
+            />
+            <img
+              src="https://s3-alpha-sig.figma.com/img/6e85/dd8a/76cb17c471d0ab050b5a19641814bfc5?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JzRFAvUppiwCoT4mRrneQBA9B9BNtgu-I51z6mZ36LhcCH4elQ0fAlMyyn6IE5CEaMw6VSaOKr8jGSslbRI-RPdeIbsaMfUOkPNy3hPfToBZy0qNSxN2Z4YdePfkl2x2wqc80v5NFWXnnl5rF~6hRR3KxD53Vs1g055D4Nx8lGoRBFj31voECuWp9zAZz8qtFxyNuSzH8QEd37I0oNT~k4yPWR9C6ktgTEC7EPUbDDT03~pb5rsFkN3XTzdV3U93XnJtktNKe2jRXzi7o4G6O~AP3YuWGp3sHpMKN9lgffa8ncnus119ZY6Y3kcwoe5P5yQmrOt8krRR709OXPkDvw__"
+              alt=""
+              className="w-[190px] h-[170px]"
+            />
+            <img
+              src="https://s3-alpha-sig.figma.com/img/c801/e8ef/8c559bbe449c25ce3ab3b658dfaa1aae?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SlniQNM48LUT1NqewGIIQye4c3UzVTUELBQYcAuSeaI2NKLEqRSw2Bjz13glc2dPauNbQrv0Cd4kC0xpRFuI2e5XXVVj2d7LJz~2bSh1kyPfW34rFiHOsjuR-zmRSBGIb~T~drWR6F8vy-xtZYeQH0kMSkXfPir1JAHxvAaIYb4Bc2a3LonULBNVBVZnRgUs5oH8hH6fHmZuM-XG6awDH4go8T0NQrsULOUGjYct4cpisGb03KICBgwzn92Jc~FoH2QUSqAO6cM-AYHjscIoWCP1kdS8jqM2C6cG0N1z9ieh-3AzwJ47GsqQcGzC2SdqlJOEs406ZFFm0Yd8m4CPwg__"
+              alt=""
+              className="w-[190px] h-[170px]"
+            />
           </div>
         </div>
 
-        <div className="p-[3rem] flex flex-col justify-center items-center gap-[20px]">
+        <div className="p-[3rem] max-md:px-[0.5rem] flex flex-col justify-center items-center gap-[20px]">
           <div className="flex gap-[30px] flex-wrap">
             <div className="flex flex-col ">
               <h1 className="md:w-[500px] text-[#fff] md:text-[3rem] max-md:text-[2rem]">
@@ -211,7 +236,7 @@ const Home = () => {
           </div>
 
           <div className="mt-[3rem] flex flex-wrap items-center text-center justify-center gap-[20px]">
-            <div className="flex flex-col rounded-[50px] max-md:p-[15px] p-[30px] bg-[#353535db]">
+            <div className="flex flex-col gap-[2rem] rounded-[50px] max-md:p-[15px] p-[30px] bg-[#353535db]">
               <span className="text-[#fff] font-bold tracking-[3px] mx-[1rem]">
                 $NINU - $8.9M MC
               </span>
@@ -225,7 +250,7 @@ const Home = () => {
                 $KIZUNA- $58M MC
               </span>
             </div>
-            <div className="flex max-md:p-[15px] flex-col rounded-[50px] p-[30px] bg-[#353535db]">
+            <div className="flex max-md:p-[15px] gap-[2rem] flex-col rounded-[50px] p-[30px] bg-[#353535db]">
               <span className="text-[#fff] font-bold tracking-[3px] mx-[1rem]">
                 $CRESO - $124M MC
               </span>
@@ -239,7 +264,7 @@ const Home = () => {
                 $TROLL - $128M MC
               </span>
             </div>
-            <div className="flex max-md:p-[15px] flex-col rounded-[50px] p-[30px] bg-[#353535db]">
+            <div className="flex max-md:p-[15px] flex-col gap-[2rem] rounded-[50px] p-[30px] bg-[#353535db]">
               <span className="text-[#fff] font-bold tracking-[3px] mx-[1rem]">
                 $PROMTIDE - $4.6M MC
               </span>

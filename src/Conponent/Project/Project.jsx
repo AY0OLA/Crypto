@@ -77,13 +77,9 @@ const Project = () => {
             </Link>
           </div>
         </div>
-        <div class="flex justify-center max-md:flex-wrap gap-[7rem] flex-row-reverse	">
-          <img
-            src="https://s3-alpha-sig.figma.com/img/0a12/7deb/fc2da861a5841961762be04f96ea9f9a?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Idiy4R7ebSRzZPG8MgijKEoUl9mrTK~cFNFwWqyidNApI7a~RAsbOeb9sP7SUE7TeJdnIG-C5i6~5jahFx-PoV1HcB-EUQnPdaiXx6o31rV-kD-TlhPlxEibjmx2UEvl~p20pEDWLhn5WTbBSJMGzvHGfSpODzfhF~T9kAvTdsBFrW-OftSw31H6BGA3Ob6kW-TK5BY05cjzcZmVCCOMTDz4AStki~DAlRQmZ2dxUew6I0WYX~iBecqfXUSWSlWpe3TTuG3fRBcW2Ov6zgSpMjQhzZWaxZopa5LVrGo~oL7EmeDF0Dc2uv6c82paT0HkzsLUo5Ln1mb3oMwXrbNwzA__"
-            alt=""
-            class="aspect-[10/7] md:w-[615px]"
-          />
-          <div class="text-[#fff] text-[1rem] font-bold flex flex-col gap-[3rem]">
+        <div class="flex  max-md:flex-wrap gap-[7rem] 	text-left">
+          <div class="aspect-[10/7] w-[100px] hidden md:w-[615px]"></div>
+          <div class="text-[#fff] text-[1rem] font-bold flex md:w-[615px] flex-col gap-[3rem]">
             <div class="text-[3rem] font-extrabold  max-md:text-[1.4rem]">
               Public Awareness
             </div>

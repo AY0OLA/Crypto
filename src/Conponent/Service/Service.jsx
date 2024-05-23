@@ -27,7 +27,7 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <div className="my-[3rem] gap-[2rem] p-[20px] items-center flex flex-col rounded-[50px] md:w-[400px] border-4 border-[#817f7fde]">
+          <div className="my-[3rem] gap-[2rem] p-[20px] items-center flex flex-col rounded-[50px] md:w-[500px] border-4 border-[#817f7fde]">
             <div className="text-left items-lastbase max-md:text-[1rem] text-[2rem] font-extrabold tracking-[6px]">
               TESTIMONIES
             </div>
@@ -38,7 +38,7 @@ const Service = () => {
                     <img
                       src={tests.img}
                       alt=""
-                      className="w-[148px] h-[156px] cursor-pointer"
+                      className="w-[248px] h-[299px] cursor-pointer"
                     />
                   </div>
                 );
@@ -93,12 +93,12 @@ const Service = () => {
           </div>
         </div>
       </div>
-      <div className="mt-[8rem] bg-[#353535db] p-[20px] flex flex-col gap-[20px] text-center">
+      <div className="mt-[8rem] bg-[#353535db] p-[20px] flex flex-col gap-[20px] text-center justify-center items-center">
         <h1 className="Poppins md:text-[2rem] max-md:text-[1.2rem] font-extrabold tracking-[8px]">
           {" "}
           WHAT DEVELOPERS’ ARE SAYING
         </h1>
-        <div className="Poppins text-center text-[1.2rem] max-md:text-[1rem] font-bold tracking-[2px]">
+        <div className="Poppins md:w-[1000px] text-center text-[1.2rem] max-md:text-[1rem] font-bold tracking-[2px]">
           Thank you so much for the amazing job you're doing! Your marketing
           efforts have exceeded our expectations in every way. Our community is
           growing rapidly, and the quality of engagement is top-notch. We've

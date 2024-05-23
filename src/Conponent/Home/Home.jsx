@@ -19,7 +19,7 @@ const Home = () => {
           </span>
         </div>
 
-        <div className="p-[3rem] max-md:px-[.5rem] flex flex-col text-[#fff] text-[1.5rem] max-md:text-[1rem] font-medium tracking-[5px]">
+        <div className="p-[3rem] max-md:px-[.5rem] flex flex-col text-[#fff] text-[1.5rem] max-md:text-[1rem] font-medium">
           <span className="text-[2rem] max-md:text-[1.5rem] text-[#fff] font-bold tracking-[10px] mb-[1.5rem]">
             WHO WE ARE
           </span>
@@ -135,7 +135,7 @@ const Home = () => {
             <img
               src="https://s3-alpha-sig.figma.com/img/b693/ada5/31a35899497d7332220541d3e07fbbd5?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ma2QiWsJlTh-JuBhd3d8PLmtrEXBsDQN2QzyWOMYVdioKn924FGDOKTWavCS3u10F21H5oR1PWuz~~S9R4nClHmefhqRgMh41WNeFMpZatnLJIj4zERBec4bf-Cwccfiz1zKT35UDpKg8C2VSp~V0WPFpBbyr9OuOrexgcAA6o2CPznAMApFBcDHOkTcoeb~VIsSLZFH5Mb5ZyxFW5C~xe6ZM3~Whz4mVPW4MhLm6b7mJjVs8GhhqeFafCeCPuWOCWaY6CjQw58E~3NL355PCkb6TCNpsW-HJuz-pMoKq6bGXnVKFtkczNJU~RoZfPC-WNJAMak-Klcte2tUpfhGhg__"
               alt=""
-              className="md:w-[639px] h-[450px] max-md:h-[300px]"
+              className="md:w-[539px] h-[450px] max-md:h-[300px]"
             />
           </div>
           <div className="flex gap-[30px] flex-wrap">
@@ -170,7 +170,7 @@ const Home = () => {
             <img
               src="https://s3-alpha-sig.figma.com/img/f36c/2686/edc5e016e5d9a99a31649f0587430769?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Nlx02Su3U~iagdUVBHtOUpCyicDitaAmdxmw-z3EmqNhstxbtzZT281mnZoRzgLwgsfchw~HlgOkwN6UznteJ6DpJL3PToyfSneQDJaEm9N1qm3Ebwv4zmGciSj2uT4Js9xVPw2veArXg5Pb2q~qjxTi7Hqbi0nKkBbBOUdPSWi54eztIclClt~cKL07Y-nh-JHKwqJf~Hlo5SfESS6An0ImftXJwkAg8J3BwzRIT7XxJALkxqHUDb4ly6nC7mmuWMG-RpeXp5FOWj5AwDlID-0iXaf1d6iRLdWXlBxqGcr6I9R7CuNJGvOoCPFRQAt~hoPzXcQpa2kTvd1mv0cBHw__"
               alt=""
-              className="md:w-[639px] h-[450px] max-md:h-[300px]"
+              className="md:w-[539px] h-[450px] max-md:h-[300px]"
             />
           </div>
         </div>
@@ -306,12 +306,12 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="mt-[8rem] bg-[#353535db] p-[20px] flex flex-col gap-[20px] text-center">
+        <div className="mt-[8rem] bg-[#353535db] p-[20px] flex flex-col gap-[20px] text-center justify-center items-center">
           <h1 className="Poppins md:text-[2rem] max-md:text-[1.2rem] font-extrabold tracking-[8px]">
             {" "}
             WHAT DEVELOPERS’ ARE SAYING
           </h1>
-          <div className="Poppins text-center text-[1.2rem] max-md:text-[1rem] font-bold tracking-[2px]">
+          <div className="Poppins text-center text-[1.2rem] max-md:text-[1rem] md:w-[1000px]  font-bold tracking-[2px]">
             Wow, I'm blown away by the incredible work you've done so far! Your
             team's organized outreach strategy has not only increased our social
             media engagement by 300%, but has also attracted the attention of

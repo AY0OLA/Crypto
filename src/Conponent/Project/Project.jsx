@@ -8,7 +8,7 @@ const Project = () => {
       <div class="py-[9rem] max-md:px-[2rem] px-[4rem] flex flex-col gap-[2rem]">
         <div class="flex justify-center max-md:flex-wrap gap-[7rem]">
           <img
-            src="https://s3-alpha-sig.figma.com/img/9fa5/eed4/c9f663d8ad1803823084536ec1eaf8e9?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VIcw~r-zS-yHqZQ5AtQS~OvW9Q3csVqBnvfybgpSWltU8Jp2~qSuOLt9OnR8gsoXQxJc28XxEAaE4E45wZn-DQX6GdHMmtXErD44~joTsiSCU3lUvbazTwIIziNu24b-OdfYyoQSH2SvUbK8X6zbRqA~owbGgdS1M3tg~C4uKAyMZMlH9Y23NSwSlVFQOl8BTk3dTt0tTuGMx2nYfex6ZLTlM5odUt8cc42VZJ~3aZc2RKrpOdYbmZG8KfPDYamJmjWR8TXIXNMCOoTS71d7s9BKkjeAT5ciJHGFEEP15sJiHzcmd4SRGaEmJ-fihGLIdV-TPONF~k4XvcYionKgXw__"
+            src="https://s3-alpha-sig.figma.com/img/9fa5/eed4/c9f663d8ad1803823084536ec1eaf8e9?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XbWXIH7NSlcjXHFEQqn7w2x6YZnqkFbz6bjGBW0ABptAi6FW601rorDUqQFY51Wqlf7jOX~lPLTbKrT~FAFhcf9WeWoglGuvzp1-ctUtXEc5w2haDrCpsr1-Ngvf5J8GbotaEjEBVI~N~~nPRNRwpawzndw0A9lT-VhrDjlWgxmldwLtvQ-r1hgoVxmldI0pwi4HuPaG3TxiwueBQ1vjAhUuZFHYoLHCKRfqlwwwhLKRBVlm8aF9kgseLIFhAaHHVuQ1UD7aRw3Zs5-E9JXLf1FfogncyrTuIBzNpEKDxWSJHpVB7sfL~uEJVGeEre12LNuQFIn2P72~ztu9po46Tg__"
             alt=""
             class="aspect-[10/7] md:w-[615px]"
           />
@@ -53,7 +53,7 @@ const Project = () => {
         </div>
         <div class="flex justify-center max-md:flex-wrap gap-[7rem]">
           <img
-            src="https://s3-alpha-sig.figma.com/img/416f/7629/40cc8f5895c2ba8263227deb6cdaeb8e?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Mbd~3RGd6lTOUgWNkI29E97IGNNJ5ZHpoemRYqWbDd~t4mh8-WEDN9HAG3UMeureRzVCED21-QaMzPzl6pGP8Rgc21l9ptgDINhs-GLbM3cZKI4tYUv4i2h8ZFcVTGEFtUMHkRJeR9Gt~sC8W0i7-H~HKZnyZa~XkQ7pAZhPE33BbVmS5OBbZKo1bscb9FVvai8Iz3DXO~l8bBo8JtKLrsovqTSW7Sprt9yw-ixDRwrxC273krsUhikH2Su2IoB-wjHMqkPdpzdvs442vpXwr5yWtK2HdhwHyN0Q9UP6om~9tEE44KfL6tLAKW5CzAuDjN-B7aIuPsVJ7uJQhOCaLA__"
+            src="https://s3-alpha-sig.figma.com/img/416f/7629/40cc8f5895c2ba8263227deb6cdaeb8e?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EoTnuohi34YnYoktsm0Tvod3~3eYS4lQ5i0Dn8DQn~cLzvUrgqfNUcjpLqmzzmjjgGgOvVSXxLatNXEBPvxOtdcVa0mm1OCs7vZp2DuBvCd20XXRk~NTYTR7w1JlAT~DOYXrxXKY0jGZPHoCYyyqxx1uQUxNOETLHvm3pQ4nk24pBVQv-fYIVkM8ze1VQSSHVD8qBE0h1TqV1KpbWhhLXOS~ozptcMGS4qacvyxUHtaaAbHlpczxwkm0fYMfcTbq0xCY1jqudlFENRPS6qMnIvbGsvf1mQtWUiyGflO8RHexQNvnR0M18W8inx67udqhyoE-9zgWhT6rRma11YLfIA__"
             alt=""
             class="aspect-[10/7] md:w-[615px]"
           />
@@ -103,7 +103,7 @@ const Project = () => {
         </div>
         <div class="flex justify-center max-md:flex-wrap gap-[7rem]">
           <img
-            src="https://s3-alpha-sig.figma.com/img/4217/284f/95b5e54055c82f2a25330a64f2c5284c?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WFpo9jpAZ76~end1RWsY7JXN84W-mtsxxPQjENwib~A-JstT6WPMTRgBGHNNZJl2LZTpmRWvL79yNEpXvN~XwjCambM9o78HNlF6Hp3a-WKyVdIEPBvfywaYWF-I8QXFKqdAd0VYlsyp3ePpmEfEJ5ZEXHpV1oDzFXA5t7m-weWwYES1ST-DJDXgqJEcRXtMB9j8lFPLetDVUhhW9HXn1WBXUFkbuqb6sQxtTZc2b2jiCeHFw4R0ssjrKQ6GzrzO3eBZBM11t-1pGsImyCiJCmW9QXBcaS3po5~yFVOavVc0g3bpDy0bbygUfapn8kMhMoyIcNDNS1NqAnxThxztCw__"
+            src="https://s3-alpha-sig.figma.com/img/4217/284f/95b5e54055c82f2a25330a64f2c5284c?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CLWQrbhNxZNZINwOa~VlHTwLdjM1NI5WdBQNU9J42jfAC3vvAqX0ueSMkGOa-RuI-hUPs9124cbem46agjKbS8vY2U2oN2cSj09W4RV0KPrx2BnFgSLcX3LuBYZlNh7NNyFbtj3zaV7mRJrpGh1rAuflXLUdkkwnjYfHbrH~NsfIQi1dst4nO1vSvYsEDUbHqMe3MAkXXczJ1bTdTRQ42WzKUQWHaOGGMh8qcfhE3wjvX9CJD0dNW2CzvwNc-pyeBDjxpdepWfZXsQ6~RNOHTadZ3N4BIhh3zDAmK89dw7TQRI4E-qrgig9NqgGTF~umnEhz0EEIqT-d38nS7gPhLw__"
             alt=""
             class="aspect-[10/7] md:w-[615px]"
           />

@@ -309,7 +309,7 @@ const Home = () => {
         <div className="mt-[8rem] bg-[#353535db] p-[20px] flex flex-col gap-[20px] text-center justify-center items-center">
           <h1 className="Poppins md:text-[2rem] max-md:text-[1.2rem] font-extrabold tracking-[8px]">
             {" "}
-            WHAT DEVELOPERS’ ARE SAYING
+            WHAT DEVS ARE SAYING
           </h1>
           <div className="Poppins text-center text-[1.2rem] max-md:text-[1rem] md:w-[1000px]  font-bold tracking-[2px]">
             Wow, I'm blown away by the incredible work you've done so far! Your

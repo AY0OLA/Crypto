@@ -6,7 +6,7 @@ const Project = () => {
   return (
     <>
       <div class="py-[9rem] max-md:px-[2rem] px-[4rem] flex flex-col gap-[2rem]">
-        <div class="flex justify-center max-md:flex-wrap gap-[7rem]">
+        <div class="flex justify-center max-md:flex-wrap md:gap-[2rem] max-md:gap-[7rem]">
           <img
             src="https://s3-alpha-sig.figma.com/img/9fa5/eed4/c9f663d8ad1803823084536ec1eaf8e9?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XbWXIH7NSlcjXHFEQqn7w2x6YZnqkFbz6bjGBW0ABptAi6FW601rorDUqQFY51Wqlf7jOX~lPLTbKrT~FAFhcf9WeWoglGuvzp1-ctUtXEc5w2haDrCpsr1-Ngvf5J8GbotaEjEBVI~N~~nPRNRwpawzndw0A9lT-VhrDjlWgxmldwLtvQ-r1hgoVxmldI0pwi4HuPaG3TxiwueBQ1vjAhUuZFHYoLHCKRfqlwwwhLKRBVlm8aF9kgseLIFhAaHHVuQ1UD7aRw3Zs5-E9JXLf1FfogncyrTuIBzNpEKDxWSJHpVB7sfL~uEJVGeEre12LNuQFIn2P72~ztu9po46Tg__"
             alt=""

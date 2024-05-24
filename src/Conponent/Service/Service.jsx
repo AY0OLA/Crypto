@@ -96,7 +96,7 @@ const Service = () => {
       <div className="mt-[8rem] bg-[#353535db] p-[20px] flex flex-col gap-[20px] text-center justify-center items-center">
         <h1 className="Poppins md:text-[2rem] max-md:text-[1.2rem] font-extrabold tracking-[8px]">
           {" "}
-          WHAT DEVELOPERS’ ARE SAYING
+          WHAT DEVS ARE SAYING
         </h1>
         <div className="Poppins md:w-[1000px] text-center text-[1.2rem] max-md:text-[1rem] font-bold tracking-[2px]">
           Thank you so much for the amazing job you're doing! Your marketing

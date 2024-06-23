@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="bg-[#01c300] fixed relative grid lg:grid-cols-[200px_minmax(400px,_1fr)_200px] grid-cols-[1fr_50px] items-center lg:px-28 p-[30px] ">
           <Link to="/" className="flex text-center items-center">
             <img
-              src="https://s3-alpha-sig.figma.com/img/f73e/c525/34ddeb66be0b89dcad920fba0d323c96?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ixu4uDS1yoYORJH1cvNVEEAC3WktcgrafO1pmur6ajBq6dKNSuWVMU~G97QdATxfWnJvFRrUKlcWFYqoTe7JuS2D~YXIRadsjOmAYxcP80VRkeLkMM5FLalmbg2EwGoaXuOFJJTDfYedkSZZjtYV2aXLUok0a5U85kgxmhAQ22KYfodESxESd~w5xLSCIbz0VYd~a8HaxfrYp3yeWy6WoDYovUvwnbUc31tPqWv3Q7yH-q8SowflRi8g~vQAg4VmHs5E88a1xZFMii027HxAHH7LrV1KthabyEUf1HoM18VcIXhpLH5rIYmQhu1t7w2vULVIPpfD7WOrkl7H-qF~kA__"
+              src="/logo.png"
               className="w-[240px] max-lg:w-[190px] max-lg:h-[100px] max-lg:left[-2rem] h-[130px] absolute left-[-1rem]"
             />
             <div className="flex items-center text-center gap-[10px] ml-[3rem] max-lg:hidden">

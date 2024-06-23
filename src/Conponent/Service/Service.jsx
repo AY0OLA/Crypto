@@ -65,30 +65,12 @@ const Service = () => {
               changing the game throught crypto marketing{" "}
             </span>
             <div className="grid grid-cols-2 gap-[10px]">
-              <img
-                src="https://s3-alpha-sig.figma.com/img/4948/28c8/a34ed7b4fb3524cc8be3f83017b1962c?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=B1XhstH~BPj-7OcvfF1QYq7UEqjknOpq7XVnZ78GX2SzpigmKZcorb17hlLnOikdr6km0OvdR9uRYu3JZYuGmjX0D6nzIUD0wuXuZhLmmiW-5YBv82libAyb0lS2i6WOO-jARKn8N7Rb3uRod~G-A~AYGFZ3DVCjI6p946PNI1k-JcoTSWhha~r~h5Q-~NsnppmYC6w9PDi2TXQ0U7ddNQzm-FObYJk-oItwZEpEG0F~cfXIL6pmD2gSRVs2XmC1uwN4JTt7fOo7LFQbEV5aOK3w5T6MMD-5Zqguqp1NP-4wp8hQFGUHP9bgpPDmUaC~S~PLM37ghMog-IA76FPUJw__"
-                alt=""
-              />
-              <img
-                src="https://s3-alpha-sig.figma.com/img/5ea2/a0e9/3cb2e9fa2280e68b35aa3d867c7ef25c?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ewHn1N5dcYGAtuApAH5XLY36DyWudqjtEa3a~ROEPvySVqqb~oe9dZ4Sc~VcNiJCeMexf7svmKPnE76BqfZyWYqBADJeWJ~BkVzkmwBQcBw6glR1nppcSDv2qHQYwf3YZcdXgnlLiUAUd7~c05cLLNKE3cajMBkbxi-eYfhH7N7dtfUe-L3x7WZxCIQuVGEtigpu5h1T6pbIRfWlo41HolC28Nb68aZdLWnUkvfhLB5Nd-MHgzdyAl-xQccXqv~bx945ja-7fAzOmH6ywJ3dw~UpUvuzKRRMbBGpDxvwXzxkAsd5PZavYv7tu-4Ehwx2Ce2bOKTKhpcagDhdXKxwiQ__"
-                alt=""
-              />
-              <img
-                src="https://s3-alpha-sig.figma.com/img/5781/93ac/312cdb4a49aa49ca364a3ac9887a92c1?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XbOee98sVNnW2wgejy2DqsLnYV168HlyJ824vf8qxrf0bdxLgPXesvBmQNkJbWoI6Y8POS8zQtbY6c3zXXbH6VE3z8V7aT~GUMvBpNgig~GSoVaB9XIpgUfiSIK4mJmO36dqVQXDeXAzOD55C1d3oe8DBN~ASYXwH2SgbYtkGfA6IsaLwz3i4IAiq6ikFKU2bImTh4qwo9rwSpGeiCmsMxwZf7EGIO6GSK1TjDntirmlAQhalnl5rEfmrEtdGsIlydYOv69NouFvqGqDVE1LKeHGw-CWhi~~CrVPnJH~b5f6yCG8Kw~g13dBfxcCCFTA9wOqWzYvP0fkWm3ReO1xpg__"
-                alt=""
-              />
-              <img
-                src="https://s3-alpha-sig.figma.com/img/e766/8b7b/200bf4debe4a78e0fd44c52da6400fd3?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cCnFYxe~m~vocVxFHJFPKT845sv2lef9fN-HSaCFbekB39OpINknZDwgUYN8f1XJ3dbWoR1YeO6L-jC51B8IJWVYD9PYHaLu~3vl7cRgn4FLzHj3JhhI2kZQJwbR1EMknsg-aGYYrpLLfl6j2S5gtCek0SgdhNYCDXlt~C2JYHhYmmdFp241cuoKJWXkIFDFVvb7yVb1ZsEXQmd0jFxBwK3uK31Eby6PnHSV3ktIHSytZIKATjFkE1IJUU2DpnFxjkPweX6I1Ficx44I2hV-KF2dydezzlMgGIsUb~BbYaIy1AyuyfUFBLMVb-8mt0ZvWO1OddgMwam72IeoBnmwkA__"
-                alt=""
-              />
-              <img
-                src="https://s3-alpha-sig.figma.com/img/cdb8/781b/eef9eadc29694f04fa907e4f5c11b26f?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DEHuL6hBqC8fGIPp-F20w8yTMz0qJJoIg8kMD5UkLXQezAqtvJGzccPZOEZPmBylthmGpf2p4nclQoCQYga3wCBig5FplsJ~w7SUurBXv2qqAX2NxovDzLky5TR~4pXd2e3wlYAGejS2uktyyajoYVbXdx1pP5hYKZGYFyn76LsK7WScHs78bPWG-WBU-VYKzc0JQf2-cQaywk9B~Ah5kzZtW1hvr7LxsnWKZhWOYRn-soDidxVan8wDmlPnG8HMpIUyEY9TTLobqqKlRq7b7lSd27wVyncSL4Ft4asKlYSUknML6GrWOHs2O6JP3q6eVDm-jcSQGW4XfLFfmIji9A__"
-                alt=""
-              />
-              <img
-                src="https://s3-alpha-sig.figma.com/img/8792/d717/c1504694d2ed62a68a87723426f1064b?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GMaqAGDVEttKfsFAVBXfKVqbJbeFByXJUW~m4tmj2u8DLc~GMQG2tM9FUnh36zDQxYPFn98RsCDxdF2vgrkJtMJ3KsJGRqj3NR3Y4BzHAhyXgusz2Pu57JePyFo6bjixLPE2x2-Q2mrXwYiYx72RBHS8h5mMya55ELXsjXfgtBlolyNIRmLe5u6wbnSrlTZjio5AKi29981ebxbDKq7Zh9eA9~q6O-0z5sQDHQhQMSk5elmBx0~H7H9DQPsY5HX7INAOxcrLDzFqbe30L2KnRpLXEIrBtFo58WmyzPgbcVz0xnVMgE9pyKKA3ZEqIiaOIek3Cz4Sg9L1gH1moXRLrA__"
-                alt=""
-              />
+              <img src="/kizu.jpeg" alt="" />
+              <img src="/chinu.jpeg" alt="" />
+              <img src="/Troll.jpeg" alt="" />
+              <img src="/Creso.jpeg" alt="" />
+              <img src="/bi.jpeg" alt="" />
+              <img src="/chinu.jpeg" alt="" />
             </div>
           </div>
         </div>
@@ -111,7 +93,7 @@ const Service = () => {
       </div>
       <div className="my-[2rem] max-md:mx-[1rem] items-center text-center place-items-center">
         <video
-          src="https://s3-figma-videos-production-sig.figma.com/video/1364613467625394021/TEAM/13ae/79e9/-052f-458b-b9e6-099d8da9e331?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nzP7kFmOCpTEoYVyLFS4cOktxLDBpaImk0x78Ywpww3XACtHtw38UlRD-EHA3Y-jQ~UUfF0PThEE0XSia62RuvByPLLgLQKdAcRuKrAT~~L640dcPKeHOJZDzH89ujLD7xLgVNSwnC53tMnNTOTaUncF6hdnaMEp8sc9QjjhSu3ct-iMooIxHrqy69IH6umYsTdX-T-i7AePDKIbc8K7~cKHIwtDYZqEVIvEn1V~5AR6xpCpEtz6MhjX5C~dMX3FwcoqWGfy5Pxb2GbdxP-eUB7404A1tpXBOZQuayVvZ9rxK3MtX9F4P6os~UW12yqxfiXENGg5I65anSS9g5K4aw__"
+          src="/3c.mp4"
           muted
           autoPlay
           className="md:h-[700px] w-[100%]"

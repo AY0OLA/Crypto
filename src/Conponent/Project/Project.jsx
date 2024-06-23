@@ -7,11 +7,7 @@ const Project = () => {
     <>
       <div class="py-[9rem] max-md:px-[2rem] px-[4rem] flex flex-col gap-[2rem]">
         <div class="flex justify-center max-md:flex-wrap md:gap-[2rem] max-md:gap-[7rem]">
-          <img
-            src="https://s3-alpha-sig.figma.com/img/9fa5/eed4/c9f663d8ad1803823084536ec1eaf8e9?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XbWXIH7NSlcjXHFEQqn7w2x6YZnqkFbz6bjGBW0ABptAi6FW601rorDUqQFY51Wqlf7jOX~lPLTbKrT~FAFhcf9WeWoglGuvzp1-ctUtXEc5w2haDrCpsr1-Ngvf5J8GbotaEjEBVI~N~~nPRNRwpawzndw0A9lT-VhrDjlWgxmldwLtvQ-r1hgoVxmldI0pwi4HuPaG3TxiwueBQ1vjAhUuZFHYoLHCKRfqlwwwhLKRBVlm8aF9kgseLIFhAaHHVuQ1UD7aRw3Zs5-E9JXLf1FfogncyrTuIBzNpEKDxWSJHpVB7sfL~uEJVGeEre12LNuQFIn2P72~ztu9po46Tg__"
-            alt=""
-            class="aspect-[10/7] md:w-[615px]"
-          />
+          <img src="/1.jpeg" alt="" class="aspect-[10/7] md:w-[615px]" />
           <div class="text-[#fff] text-[1rem] font-bold">
             <div class="text-[3rem] max-md:text-[1.6rem] font-extrabold mb-[2rem] text-center uppercase">
               our work
@@ -26,11 +22,7 @@ const Project = () => {
           </div>
         </div>
         <div class="flex justify-center max-md:flex-wrap gap-[7rem] flex-row-reverse	">
-          <img
-            src="https://s3-alpha-sig.figma.com/img/a0ab/6426/569742a6abe8501aec809e1c1847046c?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MQKWEf0Hj7Qx-W5bN9WTQPpiv25s2pC3vzP9Nnld97JkAR6ubeFsxz5xWj4tLY29RtTLNPvLEcinBsJtq~rQ9K3w5IaWwykDQza4VB0ysKcv-YWgYYXn-RYCylRuZpgfIpE9yRyv8usm5xwCaQYlqPNarzjOcSQr4KqFMp9oKGamRhyz06YdU9Ga3KesOvJZuQy0X79Iw8t8d1SsU47I9MNiq9jE34iIfgDOQlZ42cxCjDwqLrspym0DN~0imCabbmezFGUgaVAV5szMPoJinslIhk7Drtj2kIZop3YhR8zrIte7GrU0jgFBh6HoBPHZSAbo9IntpnIdbApFNo7MFg__"
-            alt=""
-            class="aspect-[10/7] md:w-[615px]"
-          />
+          <img src="/3h.jpeg" alt="" class="aspect-[10/7] md:w-[615px]" />
           <div class="text-[#fff] text-[1rem] font-bold flex flex-col gap-[3rem]">
             <div class="text-[3rem] font-extrabold  max-md:text-[1.4rem]">
               Proffessional AI raiding
@@ -52,11 +44,7 @@ const Project = () => {
           </div>
         </div>
         <div class="flex justify-center max-md:flex-wrap gap-[7rem]">
-          <img
-            src="https://s3-alpha-sig.figma.com/img/416f/7629/40cc8f5895c2ba8263227deb6cdaeb8e?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EoTnuohi34YnYoktsm0Tvod3~3eYS4lQ5i0Dn8DQn~cLzvUrgqfNUcjpLqmzzmjjgGgOvVSXxLatNXEBPvxOtdcVa0mm1OCs7vZp2DuBvCd20XXRk~NTYTR7w1JlAT~DOYXrxXKY0jGZPHoCYyyqxx1uQUxNOETLHvm3pQ4nk24pBVQv-fYIVkM8ze1VQSSHVD8qBE0h1TqV1KpbWhhLXOS~ozptcMGS4qacvyxUHtaaAbHlpczxwkm0fYMfcTbq0xCY1jqudlFENRPS6qMnIvbGsvf1mQtWUiyGflO8RHexQNvnR0M18W8inx67udqhyoE-9zgWhT6rRma11YLfIA__"
-            alt=""
-            class="aspect-[10/7] md:w-[615px]"
-          />
+          <img src="/3.jpeg" alt="" class="aspect-[10/7] md:w-[615px]" />
           <div class="text-[#fff] text-[1rem] font-bold flex flex-col gap-[3rem]">
             <div class="text-[2rem] font-extrabold max-md:text-[1.4rem]">
               REDDIT & DEXSCREENER UPVOTES
@@ -98,11 +86,7 @@ const Project = () => {
           </div>
         </div>
         <div class="flex justify-center max-md:flex-wrap gap-[7rem]">
-          <img
-            src="https://s3-alpha-sig.figma.com/img/4217/284f/95b5e54055c82f2a25330a64f2c5284c?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CLWQrbhNxZNZINwOa~VlHTwLdjM1NI5WdBQNU9J42jfAC3vvAqX0ueSMkGOa-RuI-hUPs9124cbem46agjKbS8vY2U2oN2cSj09W4RV0KPrx2BnFgSLcX3LuBYZlNh7NNyFbtj3zaV7mRJrpGh1rAuflXLUdkkwnjYfHbrH~NsfIQi1dst4nO1vSvYsEDUbHqMe3MAkXXczJ1bTdTRQ42WzKUQWHaOGGMh8qcfhE3wjvX9CJD0dNW2CzvwNc-pyeBDjxpdepWfZXsQ6~RNOHTadZ3N4BIhh3zDAmK89dw7TQRI4E-qrgig9NqgGTF~umnEhz0EEIqT-d38nS7gPhLw__"
-            alt=""
-            class="aspect-[10/7] md:w-[615px]"
-          />
+          <img src="/5.jpeg" alt="" class="aspect-[10/7] md:w-[615px]" />
           <div class="text-[#fff] text-[1rem] font-bold flex flex-col gap-[3rem] md:w-[615px]">
             <div class="text-[3rem] font-extrabold max-md:text-[1.4rem]">
               MODs, Hype team & Graphics Designers

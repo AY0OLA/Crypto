@@ -32,8 +32,7 @@
 }
 
 .image {
-  background: url(https://s3-alpha-sig.figma.com/img/e738/c074/fa8e0f032cb28075f9b2a98a9bd9576c?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=abKKxMQRhdY7ABkfYYv5z6AqzdbHvLM6xkRxbvjqAI7UvLYIpjBNHGcxGqIVO3oiSlZH57gLTbNX6p53BKuKwSaS-Fuem~i4KfCec-nLgCeGySm8GjzgLarSxuhl3ix146LQGQk~bMKqm1zW3304pWcuGUvJRkWPj-fSyJiyFaczXs2aWY4wGldkrP27P-FM7l-YebyyWFQa-UQmBvaNQG~U8wdPJzWJT-kG~AMuzyN9Rg1lXBwCTOGlSGsa0CWPqUYUpTlaz9Q-b3gQLGyUhpBAC3yN6McVaSgpDzoJw3Kd60xADhEZ8J-NRLfj2hK82ZUsVQy6yyTvV5kkGWVb2g__),
-    no-repeat;
+  background: url(/home.jpeg), no-repeat;
   background-size: cover;
   background-position: center;
   padding: 5rem 0;
